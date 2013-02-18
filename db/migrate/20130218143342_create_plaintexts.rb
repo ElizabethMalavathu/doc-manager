@@ -1,6 +1,6 @@
-class CreatePlaintexts < ActiveRecord::Migration
+class CreatePrimaryDocs < ActiveRecord::Migration
   def change
-    create_table :plaintexts do |t|
+    create_table :primarydocs do |t|
       t.string :title
 
       t.timestamps
