@@ -3,7 +3,6 @@ documents = file_contents.split("\n\n")
 bibliography = documents.shift
 
 documents.each do |document|
-<<<<<<< HEAD
   lines        = document.split("\n")
   title        = lines.shift.strip
   location     = lines.shift.strip
@@ -18,19 +17,4 @@ documents.each do |document|
                           :content => lines.map(&:strip).join('\n'),
                           :background => background
 end
-=======
- lines        = document.split("\n")
- title        = lines.shift.strip
- location     = lines.shift.strip
- date         = Date.parse(lines.shift) rescue nil
- background   = if lines.first.include?("background: ")
-   lines.shift.gsub("background: ", "").strip
- end
 
- PrimaryDocument.create! :title => title,
-                         :location => location,
-                         :publication_date => date,
-                         :content => lines.map(&:strip).join('\n'),
-                         :background => background
-end
->>>>>>> my changes
