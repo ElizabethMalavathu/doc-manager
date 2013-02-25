@@ -25,7 +25,9 @@ ActiveRecord::Schema.define(:version => 20130218160153) do
 
   create_table "primary_documents", :force => true do |t|
     t.string   "title"
+    t.string   "location"
     t.text     "content"
+    t.text     "background"
     t.date     "publication_date"
     t.integer  "author_id"
     t.datetime "created_at",       :null => false
