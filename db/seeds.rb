@@ -25,8 +25,4 @@ documents.each do |document|
   end
 end
 
-documents.each do |document|
-  begin
-    remove_number = document.gsub(/[0-9]/ "title", "title")
-  end
 
