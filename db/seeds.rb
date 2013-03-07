@@ -4,9 +4,9 @@ bibliography = documents.shift
 
 documents.each do |document|
   begin
-    lines        = document.split("\n")
-    title        = lines.shift.strip
-    location     = lines.shift.strip
+    lines        = document.strip.split("\n")
+    title        = lines.shift.strip.sub(/[0-9]{1,}\.\ /, "")
+    location     = lines.shift.strip.
     date         = Date.parse(lines.shift) rescue nil
     background   = if lines.first.include?("background: ")
       lines.shift.gsub("background: ", "").strip
@@ -24,4 +24,9 @@ documents.each do |document|
     puts e.backtrace
   end
 end
+
+documents.each do |document|
+  begin
+    remove_number = document.gsub(/[0-9]/ "title", "title")
+  end
 
