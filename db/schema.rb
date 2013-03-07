@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130218160153) do
+ActiveRecord::Schema.define(:version => 20130225172011) do
 
   create_table "authors", :force => true do |t|
     t.string   "first_name"
@@ -22,6 +22,21 @@ ActiveRecord::Schema.define(:version => 20130218160153) do
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
   end
+
+  create_table "collections", :force => true do |t|
+    t.string   "name"
+    t.text     "description"
+    t.boolean  "primary"
+    t.datetime "created_at",  :null => false
+    t.datetime "updated_at",  :null => false
+  end
+
+  create_table "collections_primary_documents", :id => false, :force => true do |t|
+    t.integer "primary_document_id", :null => false
+    t.integer "collection_id",       :null => false
+  end
+
+  add_index "collections_primary_documents", ["primary_document_id", "collection_id"], :name => "index_documents_collections", :unique => true
 
   create_table "primary_documents", :force => true do |t|
     t.string   "title"
