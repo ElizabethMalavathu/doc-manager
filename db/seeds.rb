@@ -1,3 +1,8 @@
+@created = 0
+@errors = 0
+
+error_log = File.open("#{Rails.root}/log/seeds.log", "w")
+
 Dir.glob("#{Rails.root}/db/seeds/*.txt").each do |file_path|
   file = File.open(file_path)
   file_contents = file.read
@@ -22,11 +27,18 @@ Dir.glob("#{Rails.root}/db/seeds/*.txt").each do |file_path|
                               :publication_date => date,
                               :content => lines.map(&:strip).join('\n'),
                               :background => background
+      @created += 1
     rescue NoMethodError => e
-      puts "==============================================="
-      puts "There was an error with the following document"
-      puts document
-      puts e.backtrace
+      @errors += 1
+      error_log.puts "======================================="
+      error_log.puts "There was an Error with the following document"
+      error_log.write document
+      error_log.puts e.backtrace
+      error_log.puts "======================================="
     end
   end
 end
+
+error_log.close
+
+puts "#{@created} Documents created, #{@errors} Documents with errors. Consult seeds.log for details."
