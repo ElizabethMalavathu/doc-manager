@@ -32,7 +32,7 @@ Dir.glob("#{Rails.root}/db/seeds/*.txt").each do |file_path|
       @errors += 1
       error_log.puts "======================================="
       error_log.puts "There was an Error with the following document"
-      error_log.write document
+      error_log.puts document
       error_log.puts e.backtrace
       error_log.puts "======================================="
     end
