@@ -2,7 +2,12 @@ class PrimaryDocumentsController < ApplicationController
   # GET /primary_documents
   # GET /primary_documents.json
   def index
-    @primary_documents = PrimaryDocument.all
+    @primary_documents = PrimaryDocument.all.map do |d|
+      d.content = "#{d.content[0...100]}..."
+      d.background = "#{d.background[0...100]}..." if d.background and d.background.size > 100
+      d.location = "#{d.location[0...100]}..." if d.location and d.location.size > 100
+      d
+    end
 
     respond_to do |format|
       format.html # index.html.erb
