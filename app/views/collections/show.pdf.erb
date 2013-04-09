@@ -1,0 +1,10 @@
+\documentclass{book}
+\usepackage[utf8]{inputenc}
+\usepackage[brazil]{babel}
+\title{<%= @collection.name %>}
+\begin{document}
+\tableofcontents{toc}
+<% @collection.primary_documents.each do |doc| %>
+  \chapter{<%= doc.title %>}
+<% end %>
+\end{document}
