@@ -25,7 +25,7 @@ Dir.glob("#{Rails.root}/db/seeds/*.txt").each do |file_path|
       collection.primary_documents.create! :title => title,
                               :location => location,
                               :publication_date => date,
-                              :content => lines.map(&:strip).join('\n'),
+                              :content => lines.map(&:strip).join("\n"),
                               :background => background
       @created += 1
     rescue NoMethodError => e
