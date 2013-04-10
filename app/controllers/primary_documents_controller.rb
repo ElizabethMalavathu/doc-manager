@@ -1,8 +1,9 @@
 class PrimaryDocumentsController < ApplicationController
-  # GET /primary_documents
-  # GET /primary_documents.json
+
+  before_filter :filter_docs, :only => [:index]
+
   def index
-    @primary_documents = PrimaryDocument.all.map do |d|
+    @primary_documents.map do |d|
       d.content = "#{d.content[0...100]}..."
       d.background = "#{d.background[0...100]}..." if d.background and d.background.size > 100
       d.location = "#{d.location[0...100]}..." if d.location and d.location.size > 100
@@ -15,8 +16,6 @@ class PrimaryDocumentsController < ApplicationController
     end
   end
 
-  # GET /primary_documents/1
-  # GET /primary_documents/1.json
   def show
     @primary_document = PrimaryDocument.find(params[:id])
 
@@ -26,8 +25,6 @@ class PrimaryDocumentsController < ApplicationController
     end
   end
 
-  # GET /primary_documents/new
-  # GET /primary_documents/new.json
   def new
     @primary_document = PrimaryDocument.new
 
@@ -83,6 +80,18 @@ class PrimaryDocumentsController < ApplicationController
     respond_to do |format|
       format.html { redirect_to primary_documents_url }
       format.json { head :no_content }
+    end
+  end
+
+  private
+
+  def filter_docs
+    filters = params[:filters]
+    puts filters.inspect
+    @primary_documents = if filters && !filters.empty?
+      PrimaryDocument.where(filters)
+    else
+      PrimaryDocument.all
     end
   end
 end

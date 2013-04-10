@@ -1,1 +1,2 @@
+<% @latex_config={:parse_twice => true} %>
 <%= yield %>

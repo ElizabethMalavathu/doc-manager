@@ -41,4 +41,7 @@ end
 
 error_log.close
 
+smaller_collection = Collection.create! :name => "Smaller collection", :primary => true, :description => "Yo Dawg"
+smaller_collection.primary_documents << PrimaryDocument.last(2)
+
 puts "#{@created} Documents created, #{@errors} Documents with errors. Consult seeds.log for details."

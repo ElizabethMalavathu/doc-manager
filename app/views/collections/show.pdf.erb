@@ -1,10 +1,38 @@
-\documentclass{book}
+\documentclass[oneside, twocolumn]{book}
 \usepackage[utf8]{inputenc}
-\usepackage[brazil]{babel}
+\usepackage{verbatim}
+\usepackage[english]{babel}
+\usepackage{titletoc}
+\usepackage{blindtext}
+\usepackage{multicol}
+\titlecontents{chapter}[1.5em]{\addvspace{1pc}\bfseries}{\contentslabel{5em}}{}
+    {\titlerule*[0.3pc]{.}\contentspage}
+
 \title{<%= @collection.name %>}
+
 \begin{document}
-\tableofcontents{toc}
+\maketitle
+\begin{table*}
+<%= ls @collection.description %>
+\end{table*}
+
+\tableofcontents{}
+\setlength{\parskip}{8pt plus 1pt minus 1pt}
 <% @collection.primary_documents.each do |doc| %>
-  \chapter{<%= doc.title %>}
+  \newpage{}
+  \chapter{<%= ls doc.title %>}
+    Location: <%= ls doc.location %>
+    <% if doc.background %>
+
+    Background: \textit{<%= doc.background %>}
+    <% end %>
+
+    Publication Date: <%= doc.publication_date %>
+
+  <% doc.content.split("\n").each do |paragraph| %>
+
+  <%= ls paragraph.html_safe %>
+  <% end %>
+
 <% end %>
 \end{document}
