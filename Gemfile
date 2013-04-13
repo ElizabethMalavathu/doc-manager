@@ -33,6 +33,7 @@ group :production do
 end
 
 gem 'thin'
+gem 'eventmachine', :require => false
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
