@@ -28,7 +28,7 @@ Dir.glob("#{Rails.root}/db/seeds/*.txt").each do |file_path|
                               :content => lines.map(&:strip).join("\n"),
                               :background => background
       @created += 1
-    rescue NoMethodError => e
+    rescue Exception => e
       @errors += 1
       error_log.puts "======================================="
       error_log.puts "There was an Error with the following document"
