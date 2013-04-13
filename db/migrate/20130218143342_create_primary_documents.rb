@@ -1,8 +1,8 @@
 class CreatePrimaryDocuments < ActiveRecord::Migration
   def change
     create_table :primary_documents do |t|
-      t.string :title
-      t.string :location
+      t.text   :title
+      t.text   :location
       t.text   :content
       t.text   :background
       t.date   :publication_date
