@@ -4,8 +4,10 @@ gem 'rails', '3.2.6'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
+group :development, :test do
+  gem 'mysql2'
+end
 
-gem 'mysql2'
 gem 'rails-latex'
 
 # Gems used only for assets and not required
@@ -26,6 +28,9 @@ gem 'jquery-rails'
 gem 'debugger'
 gem 'will_paginate'
 
+group :production do
+  gem 'pg'
+end
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
