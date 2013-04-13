@@ -1,7 +1,10 @@
 class CollectionsController < ApplicationController
 
   def index
-    @collections = Collection.all
+    respond_to do |format|
+      format.html
+      format.json {render json: CollectionsDatatable.new(view_context) }
+    end
   end
   
   def show

@@ -1,18 +1,15 @@
 <h1>Collections</h1>
 
-<table>
-  <tr>
-    <th>Title</th>
-  </tr>
-  <% for collection in @collections %>
+<table id="collections" class="display" data-source="<%= collections_url(format: "json") %>">
+  <thead>
     <tr>
-      <td><%= collection.name %></td>
-      <td><%= link_to "Show", collection %></td>
-      <td><%= link_to "Get", collection_path(collection, :format => :pdf) %></td>
-      <td><%= link_to "Edit", edit_collection_path(collection) %></td>
-      <td><%= link_to "Destroy", collection, :confirm => 'Are you sure?', :method => :delete %></td>
+      <th>Collection Name</th>
+      <th>Description</th>
+      <th>Created At</th>
     </tr>
-  <% end %>
+  </thead>
+  <tbody>
+  </tbody>
 </table>
 
 <p><%= link_to "New Collection", new_collection_path %></p>

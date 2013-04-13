@@ -1,5 +1,5 @@
 Docmanager::Application.routes.draw do
-  get "home/index"
+  root :to => 'collections#index'
 
   resources :collections
   resources :primary_documents
