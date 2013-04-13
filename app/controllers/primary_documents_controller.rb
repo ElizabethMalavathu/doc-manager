@@ -3,16 +3,9 @@ class PrimaryDocumentsController < ApplicationController
   before_filter :filter_docs, :only => [:index]
 
   def index
-    @primary_documents.map do |d|
-      d.content = "#{d.content[0...100]}..."
-      d.background = "#{d.background[0...100]}..." if d.background and d.background.size > 100
-      d.location = "#{d.location[0...100]}..." if d.location and d.location.size > 100
-      d
-    end
-
     respond_to do |format|
       format.html # index.html.erb
-      format.json { render json: @primary_documents }
+      format.json { render json: PrimaryDocumentsDatatable.new(view_context) }
     end
   end
 

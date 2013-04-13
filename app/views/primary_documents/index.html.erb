@@ -1,29 +1,19 @@
 <h1>Listing Primary Documents</h1>
 
-<table>
-  <tr>
-    <th>Title</th>
-    <th>Location</th>
-    <th>Content</th>
-    <th>Background</th>
-    <th>Publication date</th>
-    <th></th>
-    <th></th>
-    <th></th>
-  </tr>
-
-<% @primary_documents.each do |primary_document| %>
-  <tr>
-    <td><%= primary_document.title %></td>
-    <td><%= primary_document.location %></td>
-    <td><%= primary_document.content %></td>
-    <td><%= primary_document.background %></td>
-    <td><%= primary_document.publication_date %></td>
-    <td><%= link_to 'Show', primary_document %></td>
-    <td><%= link_to 'Edit', edit_primary_document_path(primary_document) %></td>
-    <td><%= link_to 'Destroy', primary_document, method: :delete, data: { confirm: 'Are you sure?' } %></td>
-  </tr>
-<% end %>
+<table id="primary_documents" class="display" data-source="<%= primary_documents_url(format: "json") %>">
+  <thead>
+    <tr>
+      <th>Title</th>
+      <th>Location</th>
+      <th width="500px">Content</th>
+      <th>Background</th>
+      <th>Publication date</th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+  </tbody>
 </table>
 
 <br />
