@@ -2,7 +2,7 @@
 \usepackage[utf8]{inputenc}
 \usepackage{verbatim}
 \usepackage[english]{babel}
-\usepackage{titletoc}
+% \usepackage{titletoc}
 \titlecontents{chapter}[1.5em]{\addvspace{1pc}\bfseries}{\contentslabel{5em}}{}
     {\titlerule*[0.3pc]{.}\contentspage}
 
@@ -14,7 +14,7 @@
 <%= ls @collection.description %>
 \end{table*}
 
-\tableofcontents{}
+% \tableofcontents{}
 \setlength{\parskip}{8pt plus 1pt minus 1pt}
 <% @collection.primary_documents.each do |doc| %>
   \newpage{}

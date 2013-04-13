@@ -53,7 +53,7 @@ GEM
     debugger-linecache (1.2.0)
     debugger-ruby_core_source (1.2.0)
     erubis (2.7.0)
-    eventmachine (1.0.3)
+    eventmachine (1.0.0.rc.4)
     execjs (1.4.0)
       multi_json (~> 1.0)
     hike (1.2.2)
@@ -132,7 +132,7 @@ PLATFORMS
 DEPENDENCIES
   coffee-rails (~> 3.2.1)
   debugger
-  eventmachine
+  eventmachine (= 1.0.0.rc.4)
   jquery-datatables-rails!
   jquery-rails
   jquery-ui-rails
