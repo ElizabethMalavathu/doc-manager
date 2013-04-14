@@ -1,2 +1,2 @@
-git://github.com/holiture/heroku-buildpack-tex.git
+git://github.com/benwilson512/heroku-buildpack-tex.git
 https://github.com/heroku/heroku-buildpack-ruby.git
