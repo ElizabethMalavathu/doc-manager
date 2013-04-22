@@ -4,8 +4,10 @@ gem 'rails', '3.2.6'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
+group :development, :test do
+  gem 'mysql2'
+end
 
-gem 'sqlite3'
 gem 'rails-latex'
 
 # Gems used only for assets and not required
@@ -26,8 +28,15 @@ gem 'jquery-rails'
 gem 'debugger'
 gem 'will_paginate'
 
+group :production do
+  gem 'pg'
+end
+
 gem 'thin'
-gem 'eventmachine', '1.0.0.rc.4'
+gem 'devise'
+gem "therubyracer", :require => "v8"
+gem "less-rails" #Sprockets (what Rails 3.1 uses for its asset pipeline) supports LESS
+gem "twitter-bootstrap-rails"
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
