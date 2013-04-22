@@ -39,8 +39,8 @@ ActiveRecord::Schema.define(:version => 20130225172011) do
   add_index "collections_primary_documents", ["primary_document_id", "collection_id"], :name => "index_documents_collections", :unique => true
 
   create_table "primary_documents", :force => true do |t|
-    t.string   "title"
-    t.string   "location"
+    t.text     "title"
+    t.text     "location"
     t.text     "content"
     t.text     "background"
     t.date     "publication_date"

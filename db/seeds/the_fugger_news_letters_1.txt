@@ -47,7 +47,7 @@ The Fugger News-Letters. Being a Selection of Unpublished Letters from the Corre
 9. Presents to the Bride of Charles IX
         unknown
         unknown
-            List of the presents with which the Royal Princess of France has been honoured by His Majesty, his Lady Mother and his brethren.
+background: List of the presents with which the Royal Princess of France has been honoured by His Majesty, his Lady Mother and his brethren.
     The King of France caused to be given:
     To his Bride, the said Princess Elizabeth, the daughter of His Imperial Majesty:
         1. A necklace, that is valued in all at 50,000 scudi, consisting of three
@@ -94,7 +94,7 @@ The Fugger News-Letters. Being a Selection of Unpublished Letters from the Corre
 12. The Battle of Lepanto
 unknown
         8 October 1571
-            Copy of a News-Letter from the Christian Armada,
+        background: Copy of a News-Letter from the Christian Armada,
     As soon as the Christian  Armada arrived at 6 o’clock in the evening in the little channel of Cephalonia, it was at once espied by the crafty Turkish Armada, which lay in the Gulf of Lepanto. This is snot to be wondered at, for the pirate Caragoggia offered the Turkish commander to inspect the Christian Armada and to count its ships, which he achieved with such skill that he suffered no damaged thereby. Perhaps he was over hasty in this or prevented by some unknown cause from giving the correct number of our galleys. Thereupon, the wind being very favourable, the Turkish Commander began preparations for battle with great joy, and took on board twelve thousand men over and above the soldiery he had in the Armada. Thus, thanks to divine Providence and Fate, he robbed himself of an advantage, contrary to all usage of sea warfare. Don Juan of Austria also set sail with his Armada and sent ahead several galleys to inspect the enemy. Moreover, he sent forth six galleons from the harbour. These reported that the Turkish Armada was already nearing, and not far from Cephalonia. Thereupon Don Juan attired himself in a light suit of armour and boarded a small ship, called a frigate. Holding a crucifix in his hand, he visited one galley after the other, appointing to each its proper place in the battle and exhorting the crew to fight valiantly against the arch-enemy of the Christian Faith. Not he, but Christ, who had died for us upon the Cross, was the Father of all, and the Patron of this Armada, and he hoped that they would find help and sustenance in His mercy. Thereupon the whole soldiery sent forth great shouts of jubilation and forthwith placed themselves in battle formation. Whereafter the above mentioned Don Juan of Austria again entered his galley and went out to meet the Turkish Armada. Then the sea became quite still and the galleasses, which had sailed ahead, opened with heavy fire which brought great damage and terror to the Turks, causing them to cry: “Maom, Maom!” which means in their language “Big ships, big ships with big cannon!”  Thus the Turkish Armada, which had been sailing ship to ship in half-moon formation, fell into disorder and was split into three parts. The first and largest part attacked the left wing of the Christian Armada, the second the centre and the third the right wing, which was led by Don Andreas Doria, who had lost almost all his fighters on ten of his galleys at the outset of the fight, although they had put up a most valiant and brave defence. It would have fared ill with him had not several galleys from the centre squadron come to his rescue, which help instilled fresh courage into his men, so that they forced the enemy again to withdraw. The left wing also put up a brave and gallant fight, but it also would have been in a sorry plight had not the rear, led by the Marques de Santa Cruz, come to relieve it, attacking the enemy in such fashion that the scales of victory turned completely in our favour. There also sprang up a wind to our assistance. In the smoke of battle Uluch Ali escaped. It is unknown whether he has fled to Africa or to the Gulf of Lepanto. Of forty of the principal galleys, of which we captured twenty-nine, one only was he able to save. Our general, Don Juan of Austria—whose achievements I should have reported first of all—rammed with his galley that of the Turkish commander, finally captured it, cut off the head of the Turkish pasha with his own hand and placed it at the end of a spear of his own galley. The galley of Don Vittorio Colonna was attacked by two Turkish ones, fore and amidships, but he defended himself valiantly and was finally rescued, and thus was victorious. The Venetian Chief, Venier by name, who is seventy years of age, appeared, clad in light armour, on his own galley, at the head of all and fought right valiantly alongside his men, so that he captured Ali Pasha and his vessel. Don Barbarigo also carried himself like a true knight in this battle. An arrow pierced his right eye and he died in great pain and greatly to the sorrow of those near to him.
     In this battle Don Quirin and Don Andrea Doria, Don Ascanio della Corina, Signor Fabio Serbelon, Don Pompeo Colonna, Don Prospero Colonna and Orsini with their attendant knights, Spaniards and Italians both, fought with such bravery that it cannot be fittingly recounted in so scant a space. The battle began on the 7th day of this month, two hours after daybreak, and within five hours the Christians had achieved victory with the help of the Lord. Almost all the Turkish nobles and nearly eighteen thousand men were killed, ten thousand taken prisoner, and fifteen thousand Christians, who had been slaves on the Turkish galleys, were set free. These latter caused the Turks much harm when the battle began. On several galleys there were also found a large number of Sultanas and Zechines and on Caragoggia’s galley a beautiful young woman, a Christian. She was daintily and richly attired and her neck adorned with large pearls and other precious stones and jewels. She offered to buy her release with 60,000 ducats.
     As far as can be gathered in all haste, on our side twenty Venetian noblemen and several thousand men lost their lives. One hundred Turkish galleys are captured, sixty have been sent to the bottom. Plans are being concerted to take the greatest advantage from this victory and to pursue Uluch Ali, who has made his escape. Through God’s special grace the generals and colonels are all of one mind and well satisfied with each other.
@@ -108,7 +108,7 @@ unknown
 14. Atrocities in Russia
         Moscow 
         1572
-            News-Letter.
+            background: News-Letter
     The only fresh news I have to report at this time is that the Muscovite himself ravages and despoils his own land and nation. The folk are pitilessly and cruelly killed in their thousands in all towns and many villages. They freeze to death and perish by violent means. Corn, cattle, and all else which is needed for man’s sustenance is burnt, corn is scattered in the street and the fields and altogether much wanton damage is wrought.
 
 15. St. Bartholomew’s Eve
@@ -145,7 +145,7 @@ unknown
 21. The Plague in Venice
         unknown
         2 August 1576
-    Order of the most excellent councillors chosen by the illustrious Senate for the provisioning of the City of Venice, 2nd day of August 1576.
+    background: Order of the most excellent councillors chosen by the illustrious Senate for the provisioning of the City of Venice, 2nd day of August 1576.
     In order to give effect to the findings of the illustrious Senate of the 31st day of the past month, it is decreed in the interest of the general welfare and the extirpation of the contagious plague, that the streets of this city be closed for the duration of fourteen days. On no condition whatsoever are inhabitants to be allowed to move from one street to another. The Councillors charged with the provisioning of the city make known to one and all whether Venetian, or stranger, nobleman, burgher, tradesman, or of whatever rank he may be, that it is incumbent upon him, out of his own means and to the best of his ability, to provide as far as possible all needful provisions for his household, for himself, his workmen and others who are in his service; and to take good care that sufficient water be in store in his well for the afore mentioned period of fourteen days. All this must be carried out by the coming Saturday. Likewise we command all fishermen, dealers in fruit, in meat, and all others who traffic in foodstuffs, also all those who offer for sale oil, faggots and wood, to furnish their shops at once with sufficient goods and to hold them for sale in sufficient quantities to meet the needs of their street. Likewise, by the order of the illustrious Councillors it is announced that all kinds of provisions are to be purchased elsewhere and to be brought into the city. This will be facilitated and promoted by all means, and it will be permissible to trade freely therewith wherever it may happen to be.
         Venice, 1 September 1576
     Yesterday the Senate carried a resolution whereby it was decided to buy from the physician in the hospital the remedy against the present contagious plague, which he has repeatedly offered. He was there and then paid 30,000 ducats and as many gold zechines. He and his heirs are, moreover, to receive 300 ducats every month. Yesterday the secret was made public and as soon as I receive a copy of this I will send it to Your Serene Highness.
@@ -680,8 +680,7 @@ unknown
     Her body was carried out, embalmed and made ready for burial. Where this will take place is as yet unknown. Her servants and courtiers were instructed to abide there until her remains had been honourably laid to rest. She was four-and-forty years of age, and was the most beautiful princess of her time.
     She had as first spouse, Francis II, King of France, after him Henry Stuart, the son of the Earl of Lennox, her cousin, a truly handsome young man, by whom she had issue James V, King of Scotland. But after she had caused Henry Stuart to be murdered, she took in marriage the Earl of Bothwell, who was imprisoned in Denmark, lost his senses and there died.
     After this execution had taken place, the portals of the castle remained shut, until Henry Talbot, son of the Earl of Shrewsbury, had been dispatched to the English Court. When, the other day, he brought the tidings to London, the citizens of this town lit bonfires on all sides and rang the bells, because they were rid of the danger in which they had lived so long. It looks as if the populace believed that a new era had begun in which they hope that all will remain at peace.
-    Described by Emanuel Tomascon, who was present at the happenings.
-        (On the report is a note in old handwriting: From a Calvinist source.)
+    italics: Described by Emanuel Tomascon, who was present at the happenings. (On the report is a note in old handwriting: From a Calvinist source.)
 
 80. English Attack on Cadiz
         Venice
@@ -875,8 +874,7 @@ unknown
     There again follows a confession given at Court by a monster who was burnt here yesterday. Her accomplice, who was also taken prisoner with her and who is said to be a very rich peasant woman from Bobingen, died last Saturday in prison. It is reported that she has taken neither food nor drink for four days, nor given any evidence, for her devilish paramour has forbidden her to do so. She also continually called upon him to come and fetch her. She would listen to no mention of God or other holy matters. The witch, who was condemned yesterday, made a noose out of the straw on which she was lying and tied it round her neck in order to hang herself, but when food was brought in to her this was discovered and prevented.
     Rumour hath it that the late sorceress was to have been burnt with the other witch, but neither I nor others did see anything of her. She must have been led away in secret and have lain hidden under the stake, and so both must have been burnt together. These monsters are said to have denounced many others who will in their turn meet their fate. Some one tells me that they brought another four such persons from Bobingen before dawn to imprison them. It is also rumoured that they will not spare the beautiful ones, once they have done away with the ugly and the lewd ones. One of the four brought in is reported to be a wealthy widow. The Bishop has made up his mind to exterminate all this vermin from his diocese. Dillingen also shows signs of this plague. The Bishop will probably have his hands full for some time to come with burnings and in the end, perhaps, even put part of the nobility in golden chains.
     The present misfortunate female, Anna Schelkl, widow of Hans Schelkl of Bobingen, who has been produced in public, has permitted herself to be shamefully imposed upon and seduced by the accursed Satan, in contravention of the commands of God. She has repeatedly yielded herself to him in fornication and thus committed adultery in a strictly forbidden and sodomitic manner, and for over thirty years she has delivered herself to accursed witchery. She has denied God and all His Heavenly Hosts as well as Holy Baptism, and instead of the sign of the Lord she has allowed her body to be marked with the four signs of the Devil. She has thus beyond doubt permitted herself to be led astray from the divine mercy of God and to surrender herself to the sway of the Evil One. By means of the said witchcraft she has caused great harm and destruction and death to little children, people, horses and other animals and also assisted in spoiling and ruining the precious corn of the fields. Therefore the judges of this hamlet, Schwab-München, are unanimously agreed upon their verdict that Anna Schelkl be handed over to the executioner and be led by him to the common place of execution, there to be dispatched from life to death by burning on account of her loathsome and highly punishable misdeeds. Her goods and chattels to go to the Treasury of His Honour, the Venerable Herr Marquard, Bishop of Augsburg and Provost of the Cathedral of Bamberg. Let every one beware of such horrible sin!
-    Warning to those named hereunder:
-    I hereby give notice to all official persons, servitors, citizens, subjects and tenants, of whatever rank they be, who owe allegiance to my Gracious Prince and Master, and especially to those of this hamlet, on their oath and loyalty, to put this sentence into execution. Whosoever makes so bold as to hinder it by force is to be proceeded against and to be treated in like manner. Let all beware that they do not come to grief!
+    Warning to those named hereunder: I hereby give notice to all official persons, servitors, citizens, subjects and tenants, of whatever rank they be, who owe allegiance to my Gracious Prince and Master, and especially to those of this hamlet, on their oath and loyalty, to put this sentence into execution. Whosoever makes so bold as to hinder it by force is to be proceeded against and to be treated in like manner. Let all beware that they do not come to grief!
 
 103. Henry IV Ascends the Throne
         Rome
@@ -887,7 +885,7 @@ unknown
 104. German Troops to Assist Henry IV
 unknown
 unknown
-        List of horse, foot, large and small cannon accorded to the King of Navarre by the Protestant Electors and Princes.
+background: List of horse, foot, large and small cannon accorded to the King of Navarre by the Protestant Electors and Princes.
                                          Horse.    Foot.     Big Cannon       Small Cannon
 Saxony  . . .                           4,000       8,000     16      ..
 Brunswick and four Counts   .               3,000       5,000     10      ..
@@ -1160,7 +1158,7 @@ unknown
 145. Auxiliary Armies against the Turks
         Venice
         23 October 1592
-            List of the assistance, both in unmounted and mounted troops, promised to His Majesty the Emperor by the highest potentates and princes in Italy for the impending expedition against the Turks in the coming year, 1593.
+        background: List of the assistance, both in unmounted and mounted troops, promised to His Majesty the Emperor by the highest potentates and princes in Italy for the impending expedition against the Turks in the coming year, 1593.
                                 Foot.     Horse.
 His Holiness the Pope gives     . . . .   3,000        500
 His Majesty the King of Spain gives all this from the
@@ -1186,7 +1184,7 @@ Amounting in foot and horse to  . . . 14,000      3,100
 148. The Retinue of the Archduke Ernest
 unknown
         1593
-    List of all the high and low officials, officers and servants of the new Court of the Royal Highness and the Archduke Ernest of Austria:
+    background: List of all the high and low officials, officers and servants of the new Court of the Royal Highness and the Archduke Ernest of Austria:
     Lord High Steward: Count Karl zu Hohenzollern, Councillor of His Roman Imperial Majesty. Marshal of the Court: Herr Ferdinand Albrecht von Hoyos. Master of the Horse: Wolf Ehrenreich, Herr zu Schwarzenau. Cup-Bearers: Gilbert von Sombenia, Herr Lienhard Count von Bilsarin, two commoners. Carvers: three commoners and Siegmund, Baron von Spaur. Banadiers: a commoner and Erasmus von Sandoir. Dapifers: ten. Dapifers Stewards: two. Chief Keeper of the Silver: Rudolf von Crois. Under-Keeper of the Silver: one. Court Servant: Alexander, a Scotsman. Couriers: two. Captain of the Arquebusiers: Karl, Baron von Harrach. Arquebusiers with their fourrier and trumpeter: sixty-two. Captain of the Halberdiers: Hans, Baron von Mahler. Halberdiers: twenty-three. Halberdier Watchman: one. Chaplain Almoner: one. Chaplain-in-Ordinary and Chaplain: two. Sacristan: one. Sacristan for the Chapel: one. Trumpeters: seven. Army Drummer: one. Comptroller of the Court: one. Alms-Holder: one. Silver Cleaners: two. Silver Washer: one. Stable Door Keepers: two. Quarter-master: one. Court Couriers: four. Kitchen Master: one. Keeper of the Cellar and the Lights: two. Cellar Binders: two. Assistant to the Keeper of Lights: one. Pastry Baker: one. Kitchen Clerk: one. Buyer: one. Butchers: two. Cooks: two. Master Cooks: three. Under-Bakers: four. Pastrycooks: two. Roasting-master: two. Flavourers: three. Kitchen Waiters: two. Kitchen Boys: five. Wood Cutter: one. Keeper of the Kitchen Door: one. Stewards: two. Market Carriers: four. Seamstress and Linen-Laundress: one. Mouth Washer: one.
     Chief Chamberlains: Ernst, Baron von Harrach; Herr Hans von Molard. Chamberlains: Herr Hans Breuner; Count Wolf von Oettingen; Herr Albrecht Fugger; Count von Montecucoli. Chancellor: Herr Sebastian Neustermacher zum Winddegghof. Councillor and Court Secretary of His Roman Imperial Majesty and five clerks. Chief Master of the Wardrobe: one. Under-Master of the Wardrobe: one. Physician-in-Ordinary: one. Under-Barber: one. Apothecary: one. Private Courier: one. Heater of the Palace: one. Keepers of the Doors: two. Table-Layers: two. Master: one. Private Tailor: one. Court Tailor: one. Bootmaker-in-Ordinary: one. Private Goldsmith: one. Armourer: one. Bodyguard Halberdiers: four. Chief Master of the Horse: Maximilian, Baron von Dietrichstein. Pages: thirteen. Tutor and Preceptor of the Pages: one. Dancing Master of the Pages: one. Servant of the pages: one. Ostler: one. Ostler’s Clerk: one. Riding Master: one. Groom: one. Court Smiths: two. Court Saddler: one. Harness-Maker: one. Spur-Maker: one. Gunsmith: one. Lackeys: eight. Stable Grooms: seventeen. Coachmen: twenty-six. Stable boy: one. Harnessers: two. Court Sweeper: one. Chaise-bearer: one. Provost of the Court: one. Valets: two. Makes a total of four hundred and eighty persons and four hundred and eighty-six horses.
 
@@ -3470,84 +3468,93 @@ background: Copy of a document of August 3, 1596, concerning Cadiz.
     Letters from Middelburg of the 29th inst. state that London letters of the 24th report that the English fleet with all vessels from Holland and Zeeland has returned to England with great spoils, notably much linen, steel, iron, sugar and many other things found on the Indian ships, and besides this 200 metal guns. The ships are discharging at Portsmouth and Plymouth. With the first fair wind the Earl of Cumberland is to sail with 60 vessels to lie in wait for the Indian fleet.
 
 569. Unrest in Africa
-         Men and Munitions commandeered by Philip
-                            Rome, September 7, 1596.
+                           Rome
+                            September 7, 1596
+                            background: Men and Munitions commandeered by Philip
     Spanish letters of the 19th August announce that the Moors in Africa get more and more restless as time goes on, that 20,000 of them have again banded together and are doing great damage by robbery and murder near Ceuta. As the English after their invasion of Cadiz caused great unrest among the countries bordering on Spain, the whole of Spain is roused, and both kingdoms of the ancient realm of Castile long to defend themselves against the English. They have promised their King 30 millions at fixed intervals over twenty years, 1 1/2 millions to be paid yearly. The English fleet is said to be off Cape St. Vincent, but is sailing to the Azores to wait for the Indian fleet. The Spanish letters state in conclusion that the King has ordered all the princes and gentlemen of his country to deliver to him at a reasonable price all big guns which they have for defence in their castles.
 
 570. Turkey will not last much longer
-                            Rome, September 14, 1596.
+                            Rome
+                            September 14, 1596.
     In addition to the 30 millions granted to the King of Spain, as recently notified, many towns have subsequently offered to raise and maintain a strong body of troops at their own expense for the duration of the war.
     A flysheet will shortly be printed here announcing that the Ottoman Empire and Mahomed III, the ruling Turkish Emperor, will soon come to an end, and that Constantinople will fall into the hands of the Christians. This is to happen in 1597 or a little later in accordance with the forecasts of all Prophets and of Holy Writ, as well as of the Turks.
 
 571. Malays in Ceylon
-                            Rome, September 28, 1596.
+                            Rome,
+                            eptember 28, 1596.
     Vessels lately arrived in Spain have brought 2 millions of gold and the report that the capital of an island called Ceylon in the East Indies is being besieged by 50,000 Malays. So 4000 Portuguese have sailed as a defence force, to relieve the town and end the siege.
 
 572. Embargo on Navigation to Spain
-                            Cologne, October 17, 1596.
+                            Cologne
+                            October 17, 1596.
     Letters from Amsterdam of the 12th inst. state that the States General have combined with England and France to forbid navigation to Spain. Those who had intended to sail thither have been ordered to unload their ships, and those bound to England and France must give surety that they are travelling nowhere else. At the moment all the legislatures of the United Provinces are assembled at the Hague to arrange an increase in convoy fees for the maintenance of troops. This embargo on navigation will be a serious loss to many, and the ordinary man will find it hard to earn a livelihood with provisions so dear.
 
 573. Gold and Silver reaches San Lucar
-                            Venice, October 25, 1596.
+                            Venice
+                            October 25, 1596.
     We hear from England that this Queen presented on their departure to the Duc de Bouillon a silver loving cup worth 10,000 crowns, and to Monsieur de Chartres, Governor of Dieppe, a jewel worth 5000.
     By special letters from Spain we hear that the fleet reached San Lucar with the gold and silver on September 27. It is said to have left Havana on the 3rd ult. and never to have crossed so quickly before.
-
-    See Fugger News-Letter (First Series), Letter 175, Conferment of the Garter on Henry IV.
+italics:See Fugger News-Letter (First Series), Letter 175, Conferment of the Garter on Henry IV.
 
 574. English Alliance with France
-                            Lyons, November 7, 1596.
+                            Lyons
+                            November 7, 1596.
     The English envoy has started back home from Rouen after confirming the alliance afresh. The King has presented him with many fine horses and a green cloak ornamented with diamonds and worth by itself 20,000 crowns. The arrangement with the Duc de Mercœur in Brittany is at an end, so that all the princes of that country are now united with His Majesty.
 
 575. Spanish Fleet against England
-                            Rome, November 9, 1596.
+                            Rome
+                            November 9, 1596.
     Spanish letters on the 15th October announce that 15,000 Castilian and Portuguese soldiers embarked in Lisbon harbour on the 9th inst. in 122 large ships and galleys with a large store of provisions and ammunition to sail for Ireland. The brother of the Earl of Tyrone from Ireland is said to be accompanying this Armada. It is all directed against the Queen of England.
 
 576. Its Captures
-                            Venice, November 22, 1596.
+                            Venice
+                            November 22, 1596.
     The only news from France is that the King there is still pressing the Queen of England for 4 millions in gold to carry on the war with Spain. But it will be granted him only if he pledges Boulogne.
     Spanish letters announce that the Spanish Armada has captured on the voyage to England 7 English vessels, 4 from Syria with spices and 3 with sugar. They have chained the crews to the galleys.
     It appears that the English envoy followed the Sultan to his camp in Hungary and is working hard for peace between His Imperial Majesty and the Grand Turk. But the conditions are too severe for the Emperor.
 
-
-
-
 577. The Turks in Hungary
-                            (Without address or date.)
-                    Statement of the Bey captured by His Sacred
-                    Majesty before Keresztes and examined at
-                    Kaschau on November 4.
+unknown
+4 November
+background: Statement of the Bey captured by His Sacred Majesty before Keresztes and examined at Kaschau on November 4.
     He says he was Bay at Weissenburg for seven years and Aga of 3000 janissaries at Fünfkirchen for two. He is now taking part in this campaign. He says that with his master, Osman pasha, he waited on the Grand Turk who was quartered a few miles from Erlau on September 18. There he was asked by the Turkish Emperor what Colonels and commanders the Roman Emperor had in Hungary. He told him this, and then the Sultan had a long conversation about peace negotiations with the English envoy and Viziers. The Grand Turk was strongly urged towards peace by the English envoy but dissuaded by the Beglerbey of Greece and the son of Sinan Pasha.
 
 578. The States General at Meaux
-                            Venice, November 30, 1596.
+                            Venice
+                            November 30, 1596.
     Letters of the 15th from Lyons announce that the King and the entire Court have left Rouen for Meaux for the meeting of the Estates there. The Ducs de Montpensier, Mayenne, Nemours, and Guise and the Constable de Montmorency and other great gentlemen of the Kingdom have proceeded there also. In addition to these the envoys of England, Scotland, Denmark and the States General were expected to negotiate the fresh alliance against the King of Spain.
-
-    Henry of Savoy, Duke of Nemours, 1572-1632, at first an adherent of the Holy League, then reconciled with Henry IV. Finally he fought against Savoy without success. But his chief occupation was the composition of ballets which he caused to be performed at his country house.
+italics: Henry of Savoy, Duke of Nemours, 1572-1632, at first an adherent of the Holy League, then reconciled with Henry IV. Finally he fought against Savoy without success. But his chief occupation was the composition of ballets which he caused to be performed at his country house.
 
 579. Brescian and Milanese Munitions for Spain again
-                            Venice, December 6, 1596.
+                            Venice
+                            December 6, 1596.
     A distinguished nobleman of Seville, who came there from Milan, is in the city. He narrates that between Brescia and Milan he ordered 12,000 hackbuts and 4000 pikes to take with him to Seville. Sixty guns are also being cast there, and the whole consignment must be ready next March. Munitions in Spain are very dear, and the King has recently been offered 7 millions in gold to lead his great army against the Queen of England and the rebels in the Netherlands.
 
 580. King Philip defaults
-                            Rome, December 7, 1596.
+                            Rome
+                            December 7, 1596.
     Last Tuesday night four messengers from Genoa sent by the merchants there rode through here on their way to Naples. The same number are riding to the Netherlands and two to Milan. All this because the King of Spain is withholding payment of the money brought by the fleet, and requiring its use as a loan for the war against England and the Netherlands. The King will repay the money with interest in three years, or take it as an advance on the 30 millions promised him by the Kingdom of Castile for the English war. Genoa reports that there is consternation among merchants. Everything is in confusion and there will be many failures.
 
 581. Food Scarcity in London
-                            Antwerp, December 7, 1596.
+                            Antwerp
+                            December 7, 1596.
     The Commissioners of the States General have returned from England. Apparently they would have liked to redeem Flushing and Briel. They were ready to repay Her Majesty the money she had advanced, but the Queen would not consent, and we hear from Amsterdam that envoys are to be sent to the Queen again this week.
     London reports of the 30th inst. state that some corn-ships have reached there safely from Amsterdam, but that the scarcity remains severe. Military preparations have slackened as there is no longer fear of the Spanish Armada.
 
 582. Spanish Fleet for Ireland damaged in a Storm
-                            Lyons, December 9, 1596.
+                            Lyons
+                            December 9, 1596.
     We hear nothing except that the Spanish Armada which was going to Ireland has suffered great damage in a storm. Twenty-eight ships and 4000 men are supposed to have been lost. The remainder has put back to Galicia and Biscay, and so many troops will again be raised in Spain.
 
 583. English Cloth in the Low Countries
-                            Antwerp, December 14, 1596.
+                            Antwerp
+                            December 14, 1596.
     Some ships have arrived at Middelburg with English cloth and have already begun to sell it.
     They write from Zeeland that a Scotch Captain has been brought in prisoner to the Hague. Letters have been found in his possession which prove him guilty of having arranged with the Cardinal of Austria about the town of Veere, that His Highness should send 6000 Spaniards into the country. The whole thing was discovered through a Captain in the same town, who had received money from the Scotch Captain. He will receive the reward he deserves.
 
 584. English Troops for Ireland, France, the Low Countries
-                            Brussels, January 6, 1597.
+                            Brussels
+                            January 6, 1597.
     Letters from England report that this Queen has been in bed for some days, indisposed and seriously ill. She is closely guarded also, and only discusses business with her most intimate Ministers. In all directions she is raising troops and drilling, since she wishes to send them partly to Ireland, partly to France, Holland and Zeeland. A special vessel is being got ready in London to take an envoy to Denmark. The King of Spain wanted to send the Count de Barlaimont there, and the Queen wishes to prevent his despatch.
     All places in Zeeland and on the Baltic have been written to that the Spanish Armada has been damaged, and that no trade of any sort may be carried on with Spain on risk of ship and cargo being confiscated.
     All sorts of preparations for war are being hastily made in England, and merchant ships are even being used as warships so that the son of Don Antonio may take them to Spain as soon as possible.
@@ -3555,7 +3562,8 @@ background: Copy of a document of August 3, 1596, concerning Cadiz.
 
 585. A Wet Winter
          Wheat brought to England from Holland
-                            Antwerp, January 5, 1597.
+                            Antwerp
+                            January 5, 1597.
     From London comes news that the rain lasts day and night and the country is waterlogged. The roads are in such a state that it is impossible to travel by carriage or on horseback. However, the English are not much afraid of the Spanish Armada, as preparations have been made by sea and land. Raleigh the corsair is to go to India with some ships and some other commander to the rich land of Guiana. Certain noblemen also are to sail.
     This week two Englishmen failed, William Bicker and George Lester. They owe a good deal of money, and ask, without offering sureties, for two month’s grace.
     The fleet is said to have reached Harwich from Staden with a quantity of merchandise and 1200 loads of wheat.
@@ -3563,10 +3571,10 @@ background: Copy of a document of August 3, 1596, concerning Cadiz.
     Sir Walter Raleigh, 1552-1618. He played an important part at the Court of Elizabeth while quite a youth. During the Massacre of St. Bartholomew he was apparently living in Paris, since he fought in France on the Huguenot side from 1569 till 1576. In 1578 he made a voyage of discovery to North America, from 1580 to 1582 he took part in the suppression of the Irish rebellion, in 1584 he received from the Queen a Letter Patent authorizing the discovery and conquest of unknown lands, and went on fresh voyages of discovery to North America, where he found the colony called in honour of the Queen Virginia. In 1588 he joined with his own ship in the fight against the Armada and was afterwards repeatedly entrusted with important naval commands. In 1600 he became Governor of Jersey. On the accession of James I he was condemned to death for alleged conspiracy against the King, but was respited. However, from 1603 to 1616 he and his wife were imprisoned in the Tower. In 1616, by commission of the King, he conducted an expedition to Guiana, but on his return he was arrested on Spanish instigation and the sentence of death was carried out.
 
 586. The Debts of Philip II
-                            Rome, January 11, 1597.
+                            Rome
+                            January 11, 1597.
     Letters of the 11th ult. from Spain report that an Irish envoy has arrived in Madrid and has been very well received by the King. He will presumably try to obtain help. The King has sent 1 1/2 millions to Italy by the galleys in which the two Cardinals were.
     The King has published by a new Edict that he means to pay his debts to the merchants, but that he desires an audit of their accounts and trade records since the year 1577. The money has been commandeered only because it has often reached his enemies and because of the great dishonesty of the Genoese. A list of His Majesty’s debts to gentlemen concerned is being distributed here, as follows:
-
                                    Crowns.
     Messrs. Francesco and Pietro Malvenda   .     800,000
     Ambrosio Spinola    .  .  .  .     400,000
@@ -3579,26 +3587,28 @@ background: Copy of a document of August 3, 1596, concerning Cadiz.
     Messrs. Fugger  .  .  .  .     700,000
     Other private individuals in Flanders   .  .  1,300,000
 
-
-THE FUGGER NEWS-LETTERS
-1. Tension between Spain and England
-                                    Rome, June 12, 1568.
-News reaches us that the King of Spain has sent orders to the English Ambassador to withdraw at once to a distance of ten miles from Court. The reason for this, as many think, is that the Ambassador has had in his possession or has distributed certain pamphlets teaching the doctrines of the Huguenots. The Ambassador has obeyed the command and has without delay despatched his Secretary to Queen Elizabeth.
+1. Tension between Spain and England
+                                    Rome
+                                    June 12, 1568
+background: News reaches us that the King of Spain has sent orders to the English Ambassador to withdraw at once to a distance of ten miles from Court. The reason for this, as many think, is that the Ambassador has had in his possession or has distributed certain pamphlets teaching the doctrines of the Huguenots. The Ambassador has obeyed the command and has without delay despatched his Secretary to Queen Elizabeth.
         John Man, Dean of Gloucester, 1512-1569, became English Ambassador
     to Madrid, 1567. Owing to alleged remarks about the Pope, he was banished first
     from Court, then from Madrid. Recalled from Spain, June 1568. A somewhat
     incapable diplomat.
 
 2. Turkey, Arabia, and Egypt
-                            Constantinople, September 28, 1568.
+                            Constantinople
+                            September 28, 1568.
     The army of the Grand Turk has marched to the Red Sea in order to chastise the insurgent Arabs who have occupied Aden and Yemen. Whether this will be successful cannot be foretold. The Beglerbey of Damascus was sent on in advance to oppose the Arabs, but he dallied until they had captured the two most important fortresses. He was therefore recalled on August 26. He is powerful, rich, and has many good soldiers. Possibly he may have joined the rebels. It is stated that this has already occurred and that he intends to seize Egypt, as his wife is a daughter of the King of that country. Therefore 65 galleys have been already despatched to Alexandria to hold the people in check and prevent disturbances. When the fleet on its passage reached Cyprus it put into Famagusta to water and was well received by the Venetians. It is stated that the fleet is to return in October and that vigorous preparations are being made in the Arsenal, though with what object is unknown. To-day a canopy from Mecca was carried in solemn procession round the town here. It is intended for the grave of the late Soliman. The Turks paid it every honour, kissed it, and sang the Song of their Prophet Mahomet.
 
 3. Rome on the alert against the Huguenots
-                                       Rome, January 29, 1569.
+                                       Rome
+                                       January 29, 1569.
     There is no news of importance to report this week from this Court. However, the Spanish Ambassador, who returned from France on Sunday evening, brings tidings that His Majesty of France is informing His Holiness that the rebels and Huguenots have risen to great power by help of the Queen of England. It has been discovered just lately that she has sent to them at La Rochelle several cargoes of provisions and munitions and 3000 English soldiers to fight for the German League. The Duke of Zweibrücken is sending the Prince of Orange several thousand horses, so the King has given his brother the Duke of Anjou 400,000 francs to train and pay the army and march by January 15 against Condé, who has retired into the passes of Lorraine.
 
 4. English Raiding and Trading in Spain
-                                Seville, February 11, 1569.
+                                Seville
+                                February 11, 1569.
     I have heard here exactly what the English have been doing in New Spain. A Fleming, who has been acting as interpreter to them there, writes that they have sailed into all harbours in the mainland, have sold their wares in part amicably, in part by force, and have pillaged all they could. They are said to have carried off property to the value of 600,000 ducats. Here this is considered to be an exaggeration. Still the amount is estimated at 3 or 400,000 ducats. Accordingly, all English here were arrested the day before yesterday, but released yesterday on bail. The same course is to be followed at Cadiz and San Lucar also.
         The espisode alluded to is the raid of Sir John Hawkins (1532-1595), who
     had descended upon the Spanish colonies the year before. On this expedition 
@@ -3608,15 +3618,14 @@ News reaches us that the King of Spain has sent orders to the English Ambassador
     taken in and handed over the prisoners. But Hawkins did not keep his promise.
     He became later Treasurer of the English fleet, fought successfully against the
     Armada, and died at sea on one of his expeditions off Porto Rico.
-
-        See Fugger News-Letters (First Series), Letter 4, Piracy of the English.
+footnote: See Fugger News-Letters (First Series), Letter 4, Piracy of the English.
 
 5. Spanish Ships and Gold brought into Plymouth
-                                London, March 4, 1569.
+                                London
+                                March 4, 1569.
     Twenty-two ships from Spain and Lisbon have recently come into the port of Plymouth here. Others are said to be on their way. These ships were brought in by force. They contain amongst other things spices and a Spanish Mission. The latter has arrived in London. Every day the Spaniards ask permission of the Court to journey with the despatches to Flanders. They bring little news from Spain. The Beggars at the Exchange here announce that the Moors have taken half Granada, but the Spaniards to not admit this.
     For some time the Spanish Ambassador was escorted by a guard, but this has recently been dispensed with. The Beggars dislike this, for they would prefer that open war should break out between Spain and England. About one hundred Spanish sailors are here, most of them begging for alms. But those who go to Meeting-house get their fill of fish and white bread.
     The Spanish gold now here is said to come from Plymouth, ninety-five chests of it as well as another fifty-four which ought to have got to Antwerp. It amounts all in all to nearly £100,000. What the Queen will do with it time will reveal. It is said that new coins are to be struck from it. Such of this money as belongs to the merchants Her Majesty is gracious enough to allow to be changed in Antwerp, but what belongs to the King of Spain, her brother, she thinks it right to withhold from the Duke of Alva.
-
         The Beggars. In April 1566 about 250 Netherlands nobles, who had 
     bound themselves under a covenant known as the “Compromise” to resist the
     encroachments of Philip II, presented, under the leadership of Louis, Count of
@@ -5168,4 +5177,5 @@ Postscript.
     On the 24th. inst. they wrote from Cadiz how Francis Drake, the English pirate, made a surprise landing there with forty-eight ships great and small, not all warships. He pillaged and stripped about fourteen ships laden with all sorts of merchandise and lying in the roads, and stayed there for some days. Those ships which he could not take with him he afterwards burnt or sank.  Thereupon the chief citizens with women and property fled to Seville and elsewhere, although the King at once sent five hundred men to the fort as garrison, together with some galleys. On the 25th inst. news again came from His Serene Highness the Cardinal Archduke Albert of Austria to the effect that this Drake, after sailing away from Cadiz, first proceeded to Cape St. Vincent and remained there ten days with his fleet, and after the 15th went to the province of Algarvia situated in Portugal, not far from the town of Lagos. There he landed some two thousand men and drew them up in order of battle, as though the enemy were in sight and forced to fight him. With his troops he advanced in battle order to within half a mile of the town of Lagos, whereupon the citizens in great haste ran up on the walls, and the Governor made a sally with three hundred horse. On this Drake slowly retired. Now, although the Governor pursued the marauders with his troopers, neither side attacked or harmed the other. On the following day, that is the 16th, Drake landed again with some troops and appeared before a fortress named Sagres, situated near the town of Lagos. he took it after two assaults, as he had brought with him scaling ladders and other apparatus for attack. Although one hundred and fifty Portuguese soldiers were in the fortress with the monastery and the altars and pictures in the church. The monks fled to safety. Then he came to two castles, from which the garrisons had likewise fled. These also he burnt down and razed. All the cannons, armour and weapons, as also all the wood which he found there, he carried off to his ships. On the 18th he arrived with his fleet off the port of Lisbon, and on the morning of the 19th he passed between the two harbour forts. And although Don Alonzo de Bazan, brother of the Marquis de Santa Cruz, sailed out with the seven galleasses which he commands at Lisbon, he began to skirmish with his cannon, and the firing and skirmishing lasted till six o’clock in the evening. But the firing of the big guns from the enemy’s ships was so severe that the galleasses were ultimately forced to retire, without producing any effect on the English. When the English fleet had also withdrawn a little way in its turn, a few soldiers were sent out to prevent the English from landing. But early on the 20th inst. the English fleet left the river and went out to sea, in what direction is unknown. Thus far the Lisbon letters of May 25. His Sacred Majesty of Spain has slept long enough, and from pride, preoccupation or parsimony has paid no attention to such visitors. But now he has been roused afresh and must hurriedly protect himself with money and troops. The marquis de Santa Cruz is already arming, and money and troops are being sent him in great haste. He is to sail from Lisbon as soon as possible with thirty-two well-armed galleasses and pursue the enemy. As news has been received that Don Antonio of Portugal is to sail from England with another fleet, and it is likewise impossible to know whether he too will not come to Portugal and join Drake and whether one of the fleets or even both may not again make for India, His Sacred Majesty has ordered the Duke of Medina Sidonia to sail out as quickly as possible and pursue the enemy with 32 galleys which are already fitted, and 32 big warships also which are being prepared. With the utmost despatch His Majesty is sending money to Seville in Andalusia and to Biscay, where some large ships are likewise being constructed for war, and to all places where it is required. Troops are being raised all over Spain. Recently also fifteen hundred soldiers, all trusty Spaniards, arrived in Cartagena from Sicily. Another two thousand are expected from Italy. It is said too that men are to be transferred from Germany to Italy as garrisons in place of those who have been brought to Spain.
     There is moreover some fear that the Portuguese might have an understanding with Drake of Don Antonio. Now what will happen over all this time will show. A large sum of money was recently sent for the King from here to Barcelona through some Genoese and Messrs. Fugger of this city. It should have gone to Italy and the Netherlands, but whether much of it will reach the Netherlands and the unhappy troops there we shall hear shortly.
     P.S.—Just this moment His Majesty is sending a Knight of Malta, who is a famous Italian architect, with some workmen to Cadiz, to pull down the old fortress and build up a new one.
-    Albert (Albrecht Vii, the Pious), Archduke of Austria, 1559-1621, Governor of the Netherlands. He was married to Isabella Clara Eugenia, Infanta of Spain, daughter of Philip II, 1599-1633. In 1579 he became a Cardinal and lived lo
+    italics: Albert (Albrecht Vii, the Pious), Archduke of Austria, 1559-1621, Governor of the Netherlands. He was married to Isabella Clara Eugenia, Infanta of Spain, daughter of Philip II, 1599-1633. In 1579 he became a Cardinal and lived lo
+
