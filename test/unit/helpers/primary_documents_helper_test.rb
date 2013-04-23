@@ -1,4 +1,4 @@
 require 'test_helper'
 
-class PrimaryDocumentsHelperTest < ActionView::TestCase
+class DocumentsHelperTest < ActionView::TestCase
 end

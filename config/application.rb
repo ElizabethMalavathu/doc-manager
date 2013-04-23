@@ -1,6 +1,6 @@
 require File.expand_path('../boot', __FILE__)
 require 'rails/all'
-require 'em/pure_ruby' if Rails.env == "development"
+require 'em/pure_ruby' if %w(development test).include? Rails.env
 
 if defined?(Bundler)
   # If you precompile assets before deploying to production, use this line

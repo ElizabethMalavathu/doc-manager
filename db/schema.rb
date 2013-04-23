@@ -31,22 +31,23 @@ ActiveRecord::Schema.define(:version => 20130225172011) do
     t.datetime "updated_at",  :null => false
   end
 
-  create_table "collections_primary_documents", :id => false, :force => true do |t|
-    t.integer "primary_document_id", :null => false
-    t.integer "collection_id",       :null => false
+  create_table "collections_documents", :id => false, :force => true do |t|
+    t.integer "document_id",   :null => false
+    t.integer "collection_id", :null => false
   end
 
-  add_index "collections_primary_documents", ["primary_document_id", "collection_id"], :name => "index_documents_collections", :unique => true
+  add_index "collections_documents", ["document_id", "collection_id"], :name => "index_documents_collections", :unique => true
 
-  create_table "primary_documents", :force => true do |t|
+  create_table "documents", :force => true do |t|
     t.text     "title"
     t.text     "location"
     t.text     "content"
     t.text     "background"
     t.date     "publication_date"
+    t.boolean  "primary",          :default => false
     t.integer  "author_id"
-    t.datetime "created_at",       :null => false
-    t.datetime "updated_at",       :null => false
+    t.datetime "created_at",                          :null => false
+    t.datetime "updated_at",                          :null => false
   end
 
 end

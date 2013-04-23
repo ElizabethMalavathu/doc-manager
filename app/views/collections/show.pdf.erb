@@ -17,7 +17,7 @@
 
 \tableofcontents{}
 \setlength{\parskip}{8pt plus 1pt minus 1pt}
-<% @collection.primary_documents.each do |doc| %>
+<% @collection.documents.each do |doc| %>
   \newpage{}
   \chapter{<%= ls doc.title %>}
     Location: <%= ls doc.location %>
