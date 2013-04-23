@@ -5,3 +5,4 @@ jQuery ->
     bProcessing: true
     bServerSide: true
     sAjaxSource: $('#documents').data('source')
+  $("#collection_id").select2();

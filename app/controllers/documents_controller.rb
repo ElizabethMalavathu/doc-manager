@@ -13,6 +13,7 @@ class DocumentsController < ApplicationController
     respond_to do |format|
       format.html # show.html.erb
       format.json { render json: @document }
+      format.pdf {render :pdf => "#{@document.title.underscore}.pdf"}
     end
   end
 
@@ -72,5 +73,9 @@ class DocumentsController < ApplicationController
       format.html { redirect_to documents_url }
       format.json { head :no_content }
     end
+  end
+
+  def add_collections
+    puts params.inspect
   end
 end

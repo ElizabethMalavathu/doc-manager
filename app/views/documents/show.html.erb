@@ -19,6 +19,8 @@
   <dd><%= @document.author_id %></dd>
 </dl>
 
+<%= link_to "Preview", document_path(@document, :format => :pdf), :target => "_blank" %>
+
 <div class="form-actions">
   <%= link_to t('.back', :default => t("helpers.links.back")),
               documents_path, :class => 'btn'  %>

@@ -1,5 +1,5 @@
 class DocumentsDatatable
-  delegate :params, :h, :link_to, :edit_document_path, to: :@view
+  delegate :params, :h, :link_to, :edit_document_path, :check_box_tag, to: :@view
 
   def initialize(view)
     @view = view
@@ -19,9 +19,10 @@ private
   def data
     documents.map do |doc|
       [
+        check_box_tag("document_ids[]", doc.id),
         link_to(doc.title, doc),
         truncated(doc, :location, 100),
-        truncated(doc, :content, 400),
+        truncated(doc, :content, 100),
         truncated(doc, :background, 100),
         doc.publication_date ? doc.publication_date.strftime("%m/%d/%Y") : "",
         link_to('Edit', edit_document_path(doc), :class => 'btn btn-mini'),
