@@ -24,8 +24,8 @@ private
         truncated(doc, :content, 400),
         truncated(doc, :background, 100),
         doc.publication_date,
-        link_to('Edit', edit_primary_document_path(doc)),
-        link_to('Destroy', doc, method: :delete, data: { confirm: 'Are you sure?' })
+        link_to('Edit', edit_primary_document_path(doc), :class => 'btn btn-mini'),
+        link_to('Destroy', doc, method: :delete, data: { confirm: 'Are you sure?' }, :class => 'btn btn-mini btn-danger')
       ]
     end
   end
