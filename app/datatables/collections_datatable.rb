@@ -1,5 +1,5 @@
 class CollectionsDatatable
-  delegate :params, :h, :link_to, :number_to_currency, to: :@view
+  delegate :params, :h, :link_to, :collection_path, :edit_collection_path, to: :@view
 
   def initialize(view)
     @view = view
@@ -21,7 +21,10 @@ private
       [
         link_to(collection.name, collection),
         h(collection.description),
-        h(collection.created_at.strftime("%B %e, %Y"))
+        h(collection.created_at.strftime("%B %e, %Y")),
+        link_to("Get PDF", collection_path(collection, :format => :pdf)),
+        link_to('Edit', edit_collection_path(collection), :class => 'btn btn-mini'),
+        link_to('Destroy', collection, method: :delete, data: { confirm: 'Are you sure?' }, :class => 'btn btn-mini btn-danger')
       ]
     end
   end
