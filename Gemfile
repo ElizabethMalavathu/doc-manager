@@ -23,7 +23,6 @@ gem 'will_paginate'
 
 group :production do
   gem 'pg'
-  gem 'wkhtmltopdf-heroku'
 end
 
 group :test do
