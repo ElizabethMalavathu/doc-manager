@@ -19,7 +19,6 @@
         <td><%= user.email %></td>
         <td><%= user.first_name %></td>
         <td><%= user.last_name %></td>
-        <td><%=l user.created_at %></td>
         <td>
           <%= link_to t('.edit', :default => t("helpers.links.edit")),
                       edit_user_path(user), :class => 'btn btn-mini' %>
