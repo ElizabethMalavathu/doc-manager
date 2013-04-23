@@ -1,37 +1,25 @@
-\documentclass[oneside, twocolumn]{book}
-\usepackage[utf8]{inputenc}
-\usepackage{verbatim}
-\usepackage[english]{babel}
-\usepackage{titletoc}
-\usepackage{blindtext}
-\usepackage{multicol}
-\titlecontents{chapter}[1.5em]{\addvspace{1pc}\bfseries}{\contentslabel{5em}}{}{\titlerule*[0.3pc]{.}\contentspage}
+<!DOCTYPE>
+<html>
+<head>
+  <%= wicked_pdf_stylesheet_link_tag 'application.css' %>
+</head>
+<body>
+<h1> <%= @collection.name %></h1>
+<%= @collection.description %>
 
-\title{<%= @collection.name %>}
-
-\begin{document}
-\maketitle
-\begin{table*}
-<%= ls @collection.description %>
-\end{table*}
-
-\tableofcontents{}
-\setlength{\parskip}{8pt plus 1pt minus 1pt}
 <% @collection.documents.each do |doc| %>
-  \newpage{}
-  \chapter{<%= ls doc.title %>}
-    Location: <%= ls doc.location %>
+<section>
+  <h1><%= doc.title %></h1>
+    <p><i>Location: <%= doc.location %>
     <% if doc.background %>
-
-    Background: \textit{<%= doc.background %>}
+    Background: <%= doc.background %>
     <% end %>
-
-    Publication Date: <%= doc.publication_date %>
+    Publication Date: <%= doc.publication_date %></i></p>
 
   <% doc.content.split("\n").each do |paragraph| %>
-
-  <%= ls paragraph.html_safe %>
+    <p><%= paragraph %></p>
   <% end %>
-
+</section>
 <% end %>
-\end{document}
+</body>
+</html>

@@ -23,6 +23,7 @@ gem 'will_paginate'
 
 group :production do
   gem 'pg'
+  gem 'wkhtmltopdf-heroku'
 end
 
 group :test do
@@ -37,4 +38,4 @@ gem "twitter-bootstrap-rails"
 
 gem 'taps'
 gem 'dalli'
-
+gem 'wicked_pdf'

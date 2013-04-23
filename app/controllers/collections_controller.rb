@@ -9,6 +9,15 @@ class CollectionsController < ApplicationController
   
   def show
     @collection = Collection.find(params[:id])
+
+    respond_to do |format|
+      format.html
+      format.pdf {
+        render  :pdf => "#{@collection.id}.pdf",
+                :show_as_html => params[:debug],
+                :toc    => {:depth => 2}
+      }
+    end
   end
 
   def edit
