@@ -1,7 +1,5 @@
 class DocumentsController < ApplicationController
 
-  before_filter :filter_docs, :only => [:index]
-
   def index
     respond_to do |format|
       format.html # index.html.erb
