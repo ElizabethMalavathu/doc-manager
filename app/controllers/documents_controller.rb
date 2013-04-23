@@ -75,16 +75,4 @@ class DocumentsController < ApplicationController
       format.json { head :no_content }
     end
   end
-
-  private
-
-  def filter_docs
-    filters = params[:filters]
-    puts filters.inspect
-    @documents = if filters && !filters.empty?
-      Document.where(filters)
-    else
-      Document.all
-    end
-  end
 end

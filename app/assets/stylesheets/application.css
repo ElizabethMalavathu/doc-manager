@@ -14,5 +14,9 @@
 */
 
 .row {
-  padding-top: 45px;
+  padding-top: 35px;
+}
+
+textarea.text_area {
+  width: 90%;
 }
