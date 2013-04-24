@@ -37,7 +37,7 @@ private
     collections = Collection.order("#{sort_column} #{sort_direction}")
     collections = collections.page(page).per_page(per_page)
     if params[:sSearch].present?
-      collections = collections.where("name like :search or description like :search", search: "%#{params[:sSearch]}%")
+      collections = collections.where("LOWER(name) like :search or LOWER(description) like :search", search: "%#{params[:sSearch].downcase}%")
     end
     collections
   end

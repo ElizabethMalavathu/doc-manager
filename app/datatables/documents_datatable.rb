@@ -44,7 +44,7 @@ private
     documents = Document.order("#{sort_column} #{sort_direction}")
     documents = documents.page(page).per_page(per_page)
     if params[:sSearch].present?
-      documents = documents.where("title like :search or content like :search", search: "%#{params[:sSearch]}%")
+      documents = documents.where("LOWER(title) like :search or LOWER(content) like :search", search: "%#{params[:sSearch].downcase}%")
     end
     documents
   end
