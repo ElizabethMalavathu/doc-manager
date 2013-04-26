@@ -14,9 +14,9 @@ class CollectionsController < ApplicationController
       format.html
       format.pdf {
         render  :pdf => "#{@collection.id}.pdf",
-                :show_as_html => params[:debug],
-                :header => {:right => '[page]', :font_name => "Sylfaen" },
-                :toc    => {:depth => 1, :font_name => "Sylfaen"}
+                :show_as_html => params[:debug]
+                # :header => {:right => '[page]', :font_name => "Sylfaen" }
+                # :toc    => {:depth => 1, :font_name => "Sylfaen"}
       }
     end
   end
