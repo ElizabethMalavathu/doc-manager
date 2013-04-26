@@ -5473,7 +5473,7 @@ footnote: Albert (Albrecht Vii, the Pious), Archduke of Austria, 1559-1621, Gove
               28 July 1598.
   Nothing has come in from the sea this week, only the usual vessels from Amsterdam and Holland bringing much valuable merchandise, as the Merchant Adventurers have placed large orders.  Hamburg has stopped sending, and they are trying to forbid our going to India.  The English are beginning to send a lot of stuff to Middelburg and think of remaining there this winter as well.
   The deputies from the States General arrived here this week, to arrange peace or war.  They had an audience with the Queen to-day, but their proposals are not yet known.  Of the Earl of Cumberland there is no news.
-  Verone Martens here has failed, but still remains in his house.  He owes more than £12,000, and it is a dangerous time for trade.
+  Verone Martens here has failed, but still remains in his house. He owes more than £12,000, and it is a dangerous time for trade.
 
 640.  Hopes of a General Peace
               London
@@ -5972,7 +5972,7 @@ background: See Fugger News-Letters (First Series), Letter 222, Execution of Ess
               April 24, 1604.
   Antonio Perez has come back to France again from England.  But they say he is not to be allowed to stay there any longer, and the yearly pension of 400 crowns granted him by the King and the guard of two Swiss are cancelled.  No doubt it was thought that he would have much influence with the King of England, but this was not the case.
   It is even said that the peace between Spain and England has fallen through owing to the conspiracy hatched by the priests.  However the Constable is supposed to be coming any day, though the King seems to have remarked that he is not impressed by the Constable’s visit nor by his compliments.
-  
+
 731.  English Raid on Algiers
               Venice
               April 30, 1604.
@@ -6037,53 +6037,27 @@ background: See Fugger News-Letters (First Series), Letter 222, Execution of Ess
             unknown
             Undated
   Articles of the peace concluded between the Kings of England and Spain and to be observed by their subjects throughout the realm.
-  1.  The loyal subjects of the King are to observe all articles of the peace just as in
-    former times.
-  2.  No ships may be detained in Spain, or be detained owing to injury done before 
-    the conclusion of peace.
-  3.  The subjects of the King of England enjoy free right of navigation in all the
-    dominions of the King of Spain.
-  4.  No foreigners are permitted to do the English any violence or wrong on 
-    account of violence or wrong inflicted upon them before the conclusion of
-    peace.
+  1.  The loyal subjects of the King are to observe all articles of the peace just as in former times.
+  2.  No ships may be detained in Spain, or be detained owing to injury done before the conclusion of peace.
+  3.  The subjects of the King of England enjoy free right of navigation in all the dominions of the King of Spain.
+  4.  No foreigners are permitted to do the English any violence or wrong on account of violence or wrong inflicted upon them before the conclusion of peace.
   5.  All embargoes on property are declared invalid.
-  6.  If the subjects of the King of England have paid dues in one place, they shall 
-    not be compelled to pay dues in any other place to which they may carry
-    their goods.
-  7.  They shall not be prevented from sending their wares to any place belonging
-    to the King of Spain.
-  8.  All imprisoned subjects of the King of England are to be liberated except those
-    arrested for debt.
-  9.  The subjects of the King have the right to use as large warehouses as they 
-    please, and no one shall be compelled to keep trade accounts in either 
-    Spanish or English.
-  10.  The property of subjects of the King of England deceased in Spain belongs
-    to their heirs.
-  11.  No subject of the King may be arrested in Spain for voyaging to East or West
-    India, to Turkey or to Barbary.
-  12.  As concerns the subjects of the King of England, no inquisition or inquiry 
-    may be instituted into their religion or about books in any place where 
-    they may be dwelling or to where they may have delivered goods.
-  13.  The subjects of the King of England may not be compelled to send their 
-    goods to any particular place; on the contrary, they have the right to 
-    transfer a portion of them if unsold to another place, and to obtain return 
-    of dues therefor.
-  14.  The subjects of the King shall elect a Council and deputies to examine all
-    their galleys, and no Spaniard shall concern himself therewith.
-  15.  Should, later on, war ensue between England and Spain, they are to have six
-    months’ notice, in order to be able to remove their property.
-  16.  Should they bring out of Spain money or contraband goods or merchandise 
-    then only the contraband goods may be confiscated and none other.
-      Articles concerning religion:
-  17.  In their ships and in their houses they shall be able to practise their religion
-    freely.
-  18.  They shall not be compelled to attend church or to observe any ceremonies
-    whatsoever.
-  19.  If they should commit any offence against the Spanish religion they are to be
-    sent back to England with their property.
+  6.  If the subjects of the King of England have paid dues in one place, they shall not be compelled to pay dues in any other place to which they may carrytheir goods.
+  7.  They shall not be prevented from sending their wares to any place belongingto the King of Spain.
+  8.  All imprisoned subjects of the King of England are to be liberated except thosearrested for debt.
+  9.  The subjects of the King have the right to use as large warehouses as they please, and no one shall be compelled to keep trade accounts in either Spanish or English.
+  10.  The property of subjects of the King of England deceased in Spain belongsto their heirs.
+  11.  No subject of the King may be arrested in Spain for voyaging to East or WestIndia, to Turkey or to Barbary.
+  12.  As concerns the subjects of the King of England, no inquisition or inquiry may be instituted into their religion or about books in any place where they may be dwelling or to where they may have delivered goods.
+  13.  The subjects of the King of England may not be compelled to send their goods to any particular place; on the contrary, they have the right to transfer a portion of them if unsold to another place, and to obtain return of dues therefor.
+  14.  The subjects of the King shall elect a Council and deputies to examine alltheir galleys, and no Spaniard shall concern himself therewith.
+  15.  Should, later on, war ensue between England and Spain, they are to have six months’ notice, in order to be able to remove their property.
+  16.  Should they bring out of Spain money or contraband goods or merchandise then only the contraband goods may be confiscated and none other. Articles concerning religion:
+  17.  In their ships and in their houses they shall be able to practise their religion freely.
+  18.  They shall not be compelled to attend church or to observe any ceremonies whatsoever.
+  19.  If they should commit any offence against the Spanish religion they are to be sent back to England with their property.
   20.  Offences of Englishmen against religion are to be reported to England.
-  21.  The subjects of the King of England shall not proceed to places in the West
-    Indies outside the dominions of the King of Spain.
+  21.  The subjects of the King of England shall not proceed to places in the West Indies outside the dominions of the King of Spain.
 
 743.  Rejoicings at Antwerp
               Antwerp

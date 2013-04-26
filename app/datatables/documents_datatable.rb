@@ -23,7 +23,6 @@ private
         link_to(doc.title, doc),
         truncated(doc, :location, 100),
         truncated(doc, :content, 100),
-        truncated(doc, :background, 100),
         doc.publication_date ? doc.publication_date.strftime("%m/%d/%Y") : "",
         link_to('Edit', edit_document_path(doc), :class => 'btn btn-mini'),
         link_to('Destroy', doc, method: :delete, data: { confirm: 'Are you sure?' }, :class => 'btn btn-mini btn-danger')
