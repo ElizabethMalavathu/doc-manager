@@ -1,0 +1,32 @@
+<%= stylesheet_link_tag "http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.8/themes/ui-lightness/jquery-ui.css" %>
+<div class="page-header">
+  <h1>Order: <%= @collection.name %></h1>
+</div>
+
+<%= form_tag reorder_collection_path, :method => :post %>
+<table cellpadding="0" cellspacing="0" border="0" id="ordered_documents" class="table">
+  <thead>
+    <tr>
+      <th></th>
+      <th>Position</th>
+      <th>Title</th>
+    </tr>
+  </thead>
+  <tbody id="sortable">
+    <% @references.each_with_index do |ref, index| %>
+    <tr class="ui-state-default">
+      <%= hidden_field_tag "references[#{ref.id}]", ref.order || index %>
+      <td><span class="ui-icon ui-icon-arrowthick-2-n-s"></span></td>
+      <td class='order'><%= ref.order || index %></td>
+      <td><%= link_to ref.document.title, document_path(ref.document) %></td>
+    </tr>
+    <% end %>
+  </tbody>
+</table>
+
+
+<div class="form-actions">
+<%= submit_tag "Reorder", :class => 'btn' %>
+</form>
+</div>
+</form>

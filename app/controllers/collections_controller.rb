@@ -3,7 +3,7 @@ class CollectionsController < ApplicationController
   def index
     respond_to do |format|
       format.html
-      format.json {render json: CollectionsDatatable.new(view_context) }
+      format.json {render json: Collection.all }
     end
   end
   
@@ -62,11 +62,21 @@ class CollectionsController < ApplicationController
     end
   end
 
-  private
-  def sanitize_for_latex(string)
-    %w[# $ % ^ & _ { } ~ \\].each do |c|
-      string.gsub!(c, "\\#{c}")
+  def datatable
+    respond_to do |format|
+      format.json {render json: CollectionsDatatable.new(view_context) }
     end
-    string
+  end
+
+  def order
+    @collection = Collection.find(params[:id])
+    @references = @collection.references.order('"references"."order" ASC').includes(:document)
+  end
+
+  def reorder
+    params[:references].each do |id, order|
+      Reference.find(id).update_attributes(:order => order)
+    end
+    redirect_to order_collection_path(:id => params[:id])
   end
 end

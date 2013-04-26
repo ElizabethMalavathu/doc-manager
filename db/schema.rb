@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130423012831) do
+ActiveRecord::Schema.define(:version => 20130426144409) do
 
   create_table "authors", :force => true do |t|
     t.string   "first_name"
@@ -31,13 +31,6 @@ ActiveRecord::Schema.define(:version => 20130423012831) do
     t.datetime "updated_at",  :null => false
   end
 
-  create_table "collections_documents", :id => false, :force => true do |t|
-    t.integer "document_id",   :null => false
-    t.integer "collection_id", :null => false
-  end
-
-  add_index "collections_documents", ["document_id", "collection_id"], :name => "index_documents_collections", :unique => true
-
   create_table "documents", :force => true do |t|
     t.text     "title"
     t.text     "location"
@@ -49,6 +42,17 @@ ActiveRecord::Schema.define(:version => 20130423012831) do
     t.datetime "created_at",                          :null => false
     t.datetime "updated_at",                          :null => false
   end
+
+  create_table "references", :force => true do |t|
+    t.integer  "document_id"
+    t.integer  "collection_id"
+    t.integer  "order"
+    t.datetime "created_at",    :null => false
+    t.datetime "updated_at",    :null => false
+  end
+
+  add_index "references", ["collection_id"], :name => "index_references_on_collection_id"
+  add_index "references", ["document_id"], :name => "index_references_on_document_id"
 
   create_table "users", :force => true do |t|
     t.string   "email",                  :default => "", :null => false

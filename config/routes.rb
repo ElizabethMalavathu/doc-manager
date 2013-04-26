@@ -3,7 +3,16 @@ Docmanager::Application.routes.draw do
 
   root :to => 'collections#index'
 
-  resources :collections
+  resources :collections do
+    collection do
+      get :datatable
+    end
+    member do
+      get :order
+      post :reorder
+    end
+  end
+  
   resources :documents do
     collection do
       post :add_collections

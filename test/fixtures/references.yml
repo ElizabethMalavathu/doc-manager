@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  document: 
+  collection: 
+  order: 1
+
+two:
+  document: 
+  collection: 
+  order: 1

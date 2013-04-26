@@ -5,6 +5,7 @@ class Document < ActiveRecord::Base
 
   belongs_to :author
 
-  has_and_belongs_to_many :collections
+  has_many :references
+  has_many :collections, :through => :references
 
 end
