@@ -6,4 +6,8 @@ class Author < ActiveRecord::Base
   def full_name
     "#{first_name} #{last_name}"
   end
+
+  def born_died
+    "born and died" # do furreal later
+  end
 end

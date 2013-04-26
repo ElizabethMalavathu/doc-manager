@@ -3,7 +3,7 @@ class CreateReferences < ActiveRecord::Migration
     create_table :references do |t|
       t.references :document
       t.references :collection
-      t.integer :order
+      t.integer :position
 
       t.timestamps
     end

@@ -11,7 +11,7 @@ $('#sortable').sortable({
     $('#sortable').children('tr').each(function() {
       var index = $(this).index();
       $(this).children('input').attr('value', index);
-      $(this).children('.order').text(index);
+      $(this).children('.position').text(index);
     });
   }
 });

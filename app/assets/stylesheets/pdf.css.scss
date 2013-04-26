@@ -1,0 +1,19 @@
+@font-face {
+  font-family: "Sylfaen";
+  src: "/public/sylfaen.ttf";
+}
+#pdf {
+  font-family: "Sylfaen";
+
+  h1 {
+    text-align:center;
+  }
+  p.author {
+    text-align:center;
+  }
+
+  div.content {
+    text-align:justify;
+  }
+
+}

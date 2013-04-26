@@ -1,24 +1,38 @@
 <!DOCTYPE>
 <html>
 <head>
-  <%= wicked_pdf_stylesheet_link_tag 'application.css' %>
+  <%= wicked_pdf_stylesheet_link_tag 'application-print.css' %>
+  <script>
+    function number_pages() {
+      var vars={};
+      var x=document.location.search.substring(1).split('&');
+      for(var i in x) {var z=x[i].split('=',2);vars[z[0]] = unescape(z[1]);}
+      var x=['frompage','topage','page','webpage','section','subsection','subsubsection'];
+      for(var i in x) {
+        var y = document.getElementsByClassName(x[i]);
+        for(var j=0; j<y.length; ++j) y[j].textContent = vars[x[i]];
+      }
+    }
+  </script>
 </head>
-<body>
-<h1> <%= @collection.name %></h1>
-<%= @collection.description %>
-
+<body id="pdf" onload="number_pages()">
 <% @collection.documents.each do |doc| %>
 <section>
   <h1><%= doc.title %></h1>
-    <p><i>Location: <%= doc.location %>
-    <% if doc.background %>
-    Background: <%= doc.background %>
-    <% end %>
-    Publication Date: <%= doc.publication_date %></i></p>
+  <% if doc.author %>
+  <p class="author"><i><%= doc.author.full_name %>. <%= doc.author.born_died %></i></p>
+  <% end %>
+  <p><i>Location: <%= doc.location %></i></p>
+  <% if doc.background %>
+  <p>Background: <%= doc.background %></p>
+  <% end %>
+  <p><i>Publication Date: <%= doc.publication_date %></i></p>
 
+  <div class="content">
   <% doc.content.split("\n").each do |paragraph| %>
     <p><%= paragraph %></p>
   <% end %>
+  </div>
 </section>
 <% end %>
 </body>

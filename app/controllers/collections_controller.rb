@@ -15,7 +15,9 @@ class CollectionsController < ApplicationController
       format.pdf {
         render  :pdf => "#{@collection.id}.pdf",
                 :show_as_html => params[:debug],
-                :toc    => {:depth => 2}
+                :cover => "#{Rails.root}/app/views/collections/pdf_cover.html",
+                :header => {:right => '[page]', :font_name => "Sylfaen" },
+                :outline    => {:depth => 1, :font_name => "Sylfaen"}
       }
     end
   end
@@ -70,12 +72,18 @@ class CollectionsController < ApplicationController
 
   def order
     @collection = Collection.find(params[:id])
-    @references = @collection.references.order('"references"."order" ASC').includes(:document)
+    @references = @collection.references.order('position ASC').includes(:document)
+    # Ultra ghetto"
+    # if Collection.connection.class.to_s.include? "Mysql2Adapter"
+    #   @references = @collection.references.order('`references`.`order` ASC').includes(:document)
+    # else
+    #   @references = @collection.references.order('"references"."order" ASC').includes(:document)
+    # end
   end
 
   def reorder
-    params[:references].each do |id, order|
-      Reference.find(id).update_attributes(:order => order)
+    params[:references].each do |id, position|
+      Reference.find(id).update_attributes(:position => position)
     end
     redirect_to order_collection_path(:id => params[:id])
   end

@@ -15,9 +15,9 @@
   <tbody id="sortable">
     <% @references.each_with_index do |ref, index| %>
     <tr class="ui-state-default">
-      <%= hidden_field_tag "references[#{ref.id}]", ref.order || index %>
+      <%= hidden_field_tag "references[#{ref.id}]", ref.position || index %>
       <td><span class="ui-icon ui-icon-arrowthick-2-n-s"></span></td>
-      <td class='order'><%= ref.order || index %></td>
+      <td class="position"><%= ref.position || index %></td>
       <td><%= link_to ref.document.title, document_path(ref.document) %></td>
     </tr>
     <% end %>
