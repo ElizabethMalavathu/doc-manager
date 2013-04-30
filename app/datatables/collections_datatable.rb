@@ -22,7 +22,7 @@ private
         link_to(collection.name, collection),
         h(collection.description),
         h(collection.created_at.strftime("%B %e, %Y")),
-        link_to("Get PDF", collection_path(collection, :format => :pdf),  :target => "_blank"),
+        link_to("Get PDF", collection_path(collection, :format => :pdf, :debug => "true"),  :target => "_blank"),
         link_to('Edit', edit_collection_path(collection), :class => 'btn btn-mini'),
         link_to('Destroy', collection, method: :delete, data: { confirm: 'Are you sure?' }, :class => 'btn btn-mini btn-danger')
       ]

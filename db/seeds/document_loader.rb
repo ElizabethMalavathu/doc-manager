@@ -17,7 +17,7 @@ class DocumentLoader
       documents.each do |document|
         begin
           lines        = document.strip.split("\n")
-          title        = lines.shift.strip.sub(/[0-9]{1,}\.\ /, "")
+          title        = lines.shift.strip.sub(/[0-9]{1,}\.\ /, "").downcase.titleize
           location     = lines.shift.strip
           date         = Date.parse(lines.shift) rescue nil
           background   = if lines.first.include?("background: ")
@@ -45,7 +45,7 @@ class DocumentLoader
 
     error_log.close
 
-    smaller_collection = Collection.create! :name => "Smaller collection", :primary => true, :description => "Yo Dawg"
+    smaller_collection = Collection.create! :name => "Smaller collection", :primary => true, :description => "A smaller collection of 50 documents"
     smaller_collection.documents << Document.last(50)
 
     puts "#{@created} Documents created, #{@errors} Documents with errors. Consult seeds.log for details."

@@ -3567,8 +3567,7 @@ italics: Henry of Savoy, Duke of Nemours, 1572-1632, at first an adherent of the
     From London comes news that the rain lasts day and night and the country is waterlogged. The roads are in such a state that it is impossible to travel by carriage or on horseback. However, the English are not much afraid of the Spanish Armada, as preparations have been made by sea and land. Raleigh the corsair is to go to India with some ships and some other commander to the rich land of Guiana. Certain noblemen also are to sail.
     This week two Englishmen failed, William Bicker and George Lester. They owe a good deal of money, and ask, without offering sureties, for two month’s grace.
     The fleet is said to have reached Harwich from Staden with a quantity of merchandise and 1200 loads of wheat.
-
-    Sir Walter Raleigh, 1552-1618. He played an important part at the Court of Elizabeth while quite a youth. During the Massacre of St. Bartholomew he was apparently living in Paris, since he fought in France on the Huguenot side from 1569 till 1576. In 1578 he made a voyage of discovery to North America, from 1580 to 1582 he took part in the suppression of the Irish rebellion, in 1584 he received from the Queen a Letter Patent authorizing the discovery and conquest of unknown lands, and went on fresh voyages of discovery to North America, where he found the colony called in honour of the Queen Virginia. In 1588 he joined with his own ship in the fight against the Armada and was afterwards repeatedly entrusted with important naval commands. In 1600 he became Governor of Jersey. On the accession of James I he was condemned to death for alleged conspiracy against the King, but was respited. However, from 1603 to 1616 he and his wife were imprisoned in the Tower. In 1616, by commission of the King, he conducted an expedition to Guiana, but on his return he was arrested on Spanish instigation and the sentence of death was carried out.
+footnote: Sir Walter Raleigh, 1552-1618. He played an important part at the Court of Elizabeth while quite a youth. During the Massacre of St. Bartholomew he was apparently living in Paris, since he fought in France on the Huguenot side from 1569 till 1576. In 1578 he made a voyage of discovery to North America, from 1580 to 1582 he took part in the suppression of the Irish rebellion, in 1584 he received from the Queen a Letter Patent authorizing the discovery and conquest of unknown lands, and went on fresh voyages of discovery to North America, where he found the colony called in honour of the Queen Virginia. In 1588 he joined with his own ship in the fight against the Armada and was afterwards repeatedly entrusted with important naval commands. In 1600 he became Governor of Jersey. On the accession of James I he was condemned to death for alleged conspiracy against the King, but was respited. However, from 1603 to 1616 he and his wife were imprisoned in the Tower. In 1616, by commission of the King, he conducted an expedition to Guiana, but on his return he was arrested on Spanish instigation and the sentence of death was carried out.
 
 586. The Debts of Philip II
                             Rome
@@ -3639,7 +3638,6 @@ footnote: See Fugger News-Letters (First Series), Letter 4, Piracy of the Englis
     the Gueux de Mer, or Sea Beggars. Their capture of Flushing and Brill in 1572
     was the beginning of the War of Dutch Independence.
 
-
 6. Spain and the Moors
                                           Madrid
                                           May 15, 1569.
@@ -3707,8 +3705,6 @@ In like fashion she summoned Brederode the Walloon to appear before her and brok
     Revolt in the Netherlands out of his own pocket. The Antwerp Exchange served
     him as a pattern for that of London.
 
-
-
 16. Would that we had Peace!
                                 Antwerp
                                 March 3, 1571.
@@ -3748,7 +3744,6 @@ footnote: Odet de Coligny, 1517-1571, brother of Admiral Coligny, the first vict
     In Moscow the scarcity is so severe that the Grand Duke has been unable to put more than a hundred thousand men into the field. Because of his tyranny the people are unruly. Last winter the King of Sweden treated them pretty roughly with thirty thousand men. Now in summer fighting is impossible, but in winter it can begin again.
     On an island near Narva the Swedes with a few thousand men have blocked all traffic and navigation, and quite recently drove back an English ship laden with cloth and salt. It has now arrived here in Danzig, bringing all its papers.
     Sweden, Poland and their neighbours have combined to stop all imports into Russia, so the Musdovite has sent the King of Denmark a quantity of money in order that the sea passage through the Sound may not be blocked. In consequence Imperial and Local Councils are to be held in Sweden and Denmark, and at Lübeck as capital of the Hanse Towns, to agree about access to Russia and to select with all due deliberation some suitable spot on the Baltic as market place and repository.
-
    footnote: Ivan the Terrible, 1533-1584. John III, 1568-1592.
 
 22. Norfolk executed
@@ -3817,12 +3812,8 @@ footnote: Bernardino de Mendoza, Spanish savant and diplomat, was entrusted by P
                                 Antwerp
                                 March 24, 1578.
     I myself have seen the Palsgrave John Casimir’s stabling for three hundred horses. The Queen of England will contribute her share also. Schwarzburg brings into the country two thousand men for the government, the Marquis de Havré fifteen hundred. In all, with Schenk’s men, there will be nine thousand. Stabling and pay-money are already provided.
-
-    John Casimir, Palsgrave of the Rhine, 1543-1592, took a German army to reinforce the Huguenots and supported the French Protestants and the Revolt in the Netherlands. He busied himself about an alliance between England and the Netherlands, and, with English support, led auxiliary troops against Don John of Austria. As Elizabeth refused further payment, he went in person to England, where instead of money he received the Order of the Garter. Later on he hesitated between Catholics and Protestants, but ultimately joined the Protestants in the Empire and was a dangerous opponent of the Catholic Hapsburgs.
-
-Adolphus, Count von Schwarzburg, 1547-1600, a German soldier, fought first under Philip II in the Netherlands and under Henry III against the Protestants, and later with some credit against the Turks.
-
-        Martin Schenck von Wydeggen, soldier of fortune in the Netherlands War of Liberation, b. apparently in the forties of the sixteenth century. In 1580 he was successful on the Spanish side, but in 1585 he entered Dutch service and conducted the war in the harshest and most grasping manner. In 1589 he tried to surprise Nimeguen but was driven back and drowned in the Waal.
+    footnote: John Casimir, Palsgrave of the Rhine, 1543-1592, took a German army to reinforce the Huguenots and supported the French Protestants and the Revolt in the Netherlands. He busied himself about an alliance between England and the Netherlands, and, with English support, led auxiliary troops against Don John of Austria. As Elizabeth refused further payment, he went in person to England, where instead of money he received the Order of the Garter. Later on he hesitated between Catholics and Protestants, but ultimately joined the Protestants in the Empire and was a dangerous opponent of the Catholic Hapsburgs.
+    Adolphus, Count von Schwarzburg, 1547-1600, a German soldier, fought first under Philip II in the Netherlands and under Henry III against the Protestants, and later with some credit against the Turks.        Martin Schenck von Wydeggen, soldier of fortune in the Netherlands War of Liberation, b. apparently in the forties of the sixteenth century. In 1580 he was successful on the Spanish side, but in 1585 he entered Dutch service and conducted the war in the harshest and most grasping manner. In 1589 he tried to surprise Nimeguen but was driven back and drowned in the Waal.
 
 34. The Queen seems to lean towards the Protestant side
                                 Antwerp
@@ -3896,11 +3887,7 @@ Bernard de Merode, b. about 1529, d. about 1590, one of the most zealous partici
                             December 24, 1578.
     Several days ago there passed through here a Scotch Bishop by name John Lesley, Bishop of Ross. He comes from Rome where he has lived some years. He has been also at the Court of His Imperial Majesty, and likewise with the Bishops of Bamberg, Würzburg and Metz. He had intended to go to Paris, but to pay one more visit on the way to the Duke of Lorraine. However a day’s journey from here, when he entered the town of Phalsbourg belonging to the Palsgrave George John, he was arrested and remains there locked up. This is said to be due to divers intrigues which have been traced to him. I have been informed that in this respect he is very cunning and that earlier he worked hard for the Queen of Scotland.
 footnote: John Lesley, Bishop of Ross, an accomplice in the Ridolfi plot and one of the most zealous, dangerous and indefatigable partisans of Mary Stuart. He left England in 1574 and went first to France and then to Rome, where he was incessantly active on behalf of the imprisoned Queen. In 1578 he was sent by the Pope to work among the Catholic Princes for Mary Stuart. On this journey he was arrested. Soon after he became Vicar-General at Rouen. In 1587 he would have been allowed to return to Scotland but declined to do so and remained in France. He died near Brussels.
-        Henry I of Lorraine, third Duke of Guise, Prince of Joinville, 1550-1588. He was the most formidable and vigorous opponent of the Huguenots, the fighting head of the Catholic League, and one of the chief authors of the Bartholomew Massacre. In conjunction with Philip II he aimed at the French Crown and thereby caused civil war in France. He induced Henry III to issue the Edict of Reunion. As he was becoming more and more dangerous to the King, the latter had him and his brother murdered at Blois, Christmas 1588.
-
-
-
-
+Henry I of Lorraine, third Duke of Guise, Prince of Joinville, 1550-1588. He was the most formidable and vigorous opponent of the Huguenots, the fighting head of the Catholic League, and one of the chief authors of the Bartholomew Massacre. In conjunction with Philip II he aimed at the French Crown and thereby caused civil war in France. He induced Henry III to issue the Edict of Reunion. As he was becoming more and more dangerous to the King, the latter had him and his brother murdered at Blois, Christmas 1588.
 
 45. The Prince of Orange intervenes
         background: (Abbreviated.)
@@ -4139,7 +4126,8 @@ James Fitgerald Fitzmaurice, known as the Archtraitor, d. 1579, second son of Ma
 footnote: Sir Francis Drake, 1540-1596, the renowned English sailor and circumnavigator, made and expedition to Guinea with Hawkins in 1567, and in 1570-1571 embarked on what may be called experimental voyages for his big voyage in 1572 to the Spanish-American ports. He sailed round the world from 1577 to 1580, and was knighted by Elizabeth in 1581. In 1585 he led his fleet against the Spaniards and captured the Cape Verde islands, sailing on from there to San(to) Domingo and Florida. In 1586 he came home and in 1587 made his famous voyage to Spain. In 1588 he fought against the Armada, and was in command of the fleet in 1589 which was to help Don Antonio to gain his throne of Portugal. In 1595 he made a fresh voyage to the West Indies, but with less success than on former occasions. On this voyage he died off Portobello.
 
 87. Inventory of Cargoes from India
-
+unknown
+unknown
 Cargoes of four ships from Calicut in India which arrived at Lisbon in August—
     Pepper, all sorts 20,777 (in cwts.)
     Cloves  2,863
@@ -4235,7 +4223,6 @@ The fleet from Peru and the Main is to bring—
                             March 3, 1581.
     The ambassadors for England are waiting here till the money and other articles they require can be collected. Monsieur Brisson, President of the Parliament, is to accompany them. The object of the mission, according to universal belief, is merely a renewal of the old alliance formed between the two crowns in 1572. Time will show whether there are to be any other negotiations. The other envoys to England are the old Monsieur de Lansar, Monsieur de la Mothe Fénelon with a Secretary sent by the King, and Monsieur de la Vigne with a Secretary sent by the Duke of Alençon.
     footnote: Bertrand de Salignac, Marquiws de la Mothe-Fénelon, d. 1599. Well-known French diplomatist, entrusted with the most important negotiations between France and England.
-
     Barnabas Brisson, 1531-1591, Advocate-General under Henry III, President of the Parliament of Paris 1580, sent to England about the marriage of the Duke of Alençon, author of the legal book known as the Code Henri III.
 
 99. Projected Alliance with France
@@ -4267,9 +4254,8 @@ footnote: François de Bourbon, Duc de Montpensier, 1539-1592, a very brave sold
                             Antwerp
                             April 15, 1581.
     The Scotch at Villebroek are still mutinying. They have an arrangement with the enemy at Louvain and Aelst. The day before yesterday emissaries were sent them with some money, but I fear they will not be content with so little. Negotiations are in progress to get them out of the fortress, but I gather to no purpose. They refuse to move unless they receive arrears in full, but this is impossible. Things have got so far that they want to cut through the canal from Brussels so as to surround the town on one side with water and block the way to Louvain. When the Scotch have gone, citizens from Antwerp and Brussels are to replace them in the fortress. Not more than two months pay is owing to the Scotch. Their Colonel Stewart and their Captains cannot come near them; they have been driven away. The English Colonel Norris, commanding in Friesland for the States General, is here now. He has been owed a good sum for a long time and is now demanding payment.
-
     footnote: Sir William Stewart lived during the period between 1575 and 1603. He was a soldier and diplomatist and held a command in the Netherlands. He intrigued with the Spaniards on behalf of Mary Stuart against James of Scotland.
-Sir Edward Norris, Governor of Ostend, had long been in command of the English troops in the Netherlands, d. 1603.
+    Sir Edward Norris, Governor of Ostend, had long been in command of the English troops in the Netherlands, d. 1603.
 
 104. French Embassy in England
                             Cologne
@@ -4305,7 +4291,8 @@ Sir Edward Norris, Governor of Ostend, had long been in command of the English t
     News reaches Antwerp from England that for a whole week nothing has taken place in London but banqueting and jousting and that certain French gentlemen have returned home. It looks as though the Queen even now wanted time for reflection, and the long absence of the Duke of Alençon causes her much anxiety. The belief is that he will betray the Low Countries and come to an understanding with Spain. It appears too that some people in Antwerp are beginning to be afraid of him for they do not talk nearly so big as before.
 
 109. A Hostage kidnapped
-                            London, June 10, 1581.
+                            London
+                            June 10, 1581.
     Yesterday one of the secretaries of the Prince of Orange came here. By instruction of this Prince on the 5th inst. at eight o’clock, outside the lodgings of the Spanish ambassador and in presence of the ambassador’s servants and with the assistance of a halberdier, he took away a boy of eleven. This boy was the son of a Dutch sea captain and with the knowledge of the Prince of Orange had been delivered to the Spanish ambassador as a hostage. On the 5th inst. the captain was to have handed the town of Flushing over to the Spaniards and malcontents. But the intention merely was to draw the malcontents into a trap, so all preparations had been made in Flushing. The Spanish ambassador had paid over to the captain 5000 crowns in advance. The malcontents had been warned in time. It is doubtful whether the Duke of Alençon has been here lately. Nevertheless many negotiations have been carried on this week and the French seem to be satisfied. But what will come of it is still a mystery. The Duc de Bouillon and his brother left here three days ago, the other Frenchmen are to follow them to-morrow.
 
 110. The French leave, laden with Gifts and Promises
@@ -4520,10 +4507,7 @@ See Fugger News-Letters (First Series), Letter 43, Execution of Jesuits.
                             Madrid
                             Spain, May 5, 1583.
     The Queen Dowager of France has sent a ship from Marseilles to Constantinople, to try and persuade the Grand Turk to send a fleet out this year to stir up trouble in the Levant. Certain galleys have already turned up, but it is hoped they will not do much harm. Six more large galleys are being got ready at Marseilles, on pretence of being sent to the Grand Master of Malta. Some think the French would like to make an attempt to catch Spinola’s Genoese galleys, which often sail to and fro with money.
-
-    Amurath III was then Sultan of Turkey, and Jacques de Germigny was French Ambassador at Constantinople. The English agent at Constantinople was William Harebone, the first representative that England ever had in Turkey. He was succeeded in 1588 by Edward Burton.
-
-    Ferdinand Spinola, son of Philip Spinola, Spanish Admiral, fell in an engagement at sea off Ostend, 1603.
+footnote: Amurath III was then Sultan of Turkey, and Jacques de Germigny was French Ambassador at Constantinople. The English agent at Constantinople was William Harebone, the first representative that England ever had in Turkey. He was succeeded in 1588 by Edward Burton.    Ferdinand Spinola, son of Philip Spinola, Spanish Admiral, fell in an engagement at sea off Ostend, 1603.
 
 149. Elizabeth ready to help the States General
                             Antwerp
@@ -4681,9 +4665,8 @@ December 29, 1583.
     The permanent English ambassador at this Court went out to meet him, and the King caused the Duc de Montpensier to escort him on his way. Great preparations are being made to entertain him with banquets, masques and other amusements. The King is putting him up free in the same way as the Dutch Envoy, and much money will be spent. The English here announce that their Queen expelled all Jesuits a month ago. They were first given a gratuity, and then taken to the frontier to go wherever they wished.
 
 178. The Garter conferred upon the King of France
-
-                            Paris
-                            March 5, 1585.
+    Paris
+    March 5, 1585.
     The English Envoy, the Earl of Derby, entered this city in the afternoon of the 23rd ult., and the Duc de Montpensier representing the King rode out to meet him. On his entry he was escorted by four hundred horse. On the very next day he had an audience of His Majesty, and on the following Thursday, which was the 28th of February, on behalf of his Queen he conferred the Order of the Garter upon the King in the Church of the Austin Friars. His Majesty wore the usual dress of a Knight of the Order. In addition to the Knights of the Order here, there were present at this ceremony the Papal Nuncio and the Spanish and Venetian ambassadors. The Garter is valued at fifty thousand crowns. In return the King is said to have prepared a magnificent coach with all fittings to still greater value for presentation to the Queen of England. The Envoy was most honourably feasted at banquets, especially by the King. Next week he is to return to England, and we are not told what other subjects he may have negotiated about here on behalf of his Queen.
 
 179. Sentence on Antonio Perez
@@ -4848,7 +4831,8 @@ Postscript.
     You have already learnt what the English did on the island of Santiago, and how they pillaged and set fire to everything and got clear away. But this unfortunately is not the end of it, for on the 27th March, news dated the 24th came here from Seville, that the English pirate, Drake, after all the damage he did at Santiago, took and plundered Porto Rico and the island of San Domingo. Thy say he has carried off and done damage to the tune of over two millions. He killed or ill-treated all priests and monks he could get hold of, and is fortifying himself in San Domingo too. They fear he has also taken Havana. If His Majesty does not soon provide assistance, no fleet will be able to sail from India or to come from there this year. This is of course a grievous loss and a great danger for all India, and one which hits trade especially hard. His Majesty had information about the plans of this Drake in good time, but paid no attention. Also he gave no orders to the Indian Council or any one else to intercept Drake. Nobody will believe this till we have to bear the shame and loss of it. Now we must expend much money, labour and trouble, and shall be unable to do any good at first. What is more, this will put a check on the success we hoped for in the Netherlands. They say His Majesty has given orders to get ready and equip the fifteen galliots lying at Seville and Lisbon, but not yet quite completed and insufficiently provided with soldiers, and thirty more ships too. But it is to be feared that, as is their custom, they will go about it so slowly that the enemy will manage to carry his plan through first, will fortify himself and do still more damage. May God Almighty grant in His mercy that all may soon be changed, and that this piracy may be withstood. As is also stated, His Majesty has ordered the six hundred thousand ducats sent three weeks ago to Barcelona for shipment to Italy to be brought back, as the cash will probably be wanted for the fresh water. If things had only been looked to earlier, we could have managed with a smaller sum.
 
 208. France and the Porte
-                            Constantinople, April 14, 1586.
+    Constantinople
+    April 14, 1586.
     On the morning of the 11th inst. the French ambassador had an audience with Mesih Pasha, and the latter appears to have submitted his request to the Sultan in open Divan the same morning; namely, the restoration of the ancient privileges which France had had from the Porte for many years, but which had recently lapsed. As it was an express stipulation among these privileges that the English could only trade under the French flag either here or elsewhere in the Sultan’s dominions, the above-mentioned French ambassador has already begun and will continue to struggle to get the English ambassador away from this place and to bring the English Nation under his protection. He is said too to have laid a complaint about the serious injury done to the subjects of his King by the Barbary corsairs. He will no doubt try to double the figure for damages and demand five hundred thousand ducats compensation. But it is thought that in place of cash the French ambassador will be content with getting rid of the Englishman. He may perhaps make a mistake, for there is nothing the Pasha and the Sultan are keener about than money and they only think how to get hold of as much of it as possible. It is believed accordingly that the French ambassador will accomplish nothing in this direction without cash, if only the English ambassador pays a small sum down. To-day, as is customary, the French mission had audience in open Divan, and presented altogether forty costumes, twenty of satin and damask, ten of velvet and ten of cloth, together with gold and silver plate. This is valued at the utmost at a thousand pieces of gold. The Turks are not impressed and have said publicly that the Sultan spent more money on the ambassador’s banquet.
 
 209. Defeat of the English near Grave
@@ -4895,7 +4879,8 @@ unknown
     You heard that six or seven weeks ago an Italian named Lanfranchi came from England to the Prince of Parma in Brussels. He went down the Scheldt to Zeeland and thence to London, with a quantity of silk-stuffs. A day or two since he returned from England, and brings with him for the Prince of Parma two fine horses and some handsome dogs. There is a lot of talk about him here, and many are surprised that this Italian is able to come here from England with dogs and horses, especially when they are for Parma, as it is much remarked in this kingdom that nobody brings animals from there. But letters from London arrive daily by post notwithstanding, and letters are being sent there from here without any hindrance.
 
 217. English at Emden
-                            Emden, June 12, 1586
+Emden
+June 12, 1586
     An English Commissioner from the Queen of England and her officers in Holland came here quite recently. Immediately after the Count of Emden arrived, and the next day the Commissioner and other Englishmen were entertained at the Town Hall by the worshipful Council of this town. On the day following the Commissioner had an interview with the Count, and amongst other things required that the Count should abandon the preaching of the Augsburg religion which he causes to be held in a private house. But the Count does not wish to do this, and is taking a few days for reflection.
 
 218. English Hold on San Domingo
@@ -5473,7 +5458,7 @@ footnote: Albert (Albrecht Vii, the Pious), Archduke of Austria, 1559-1621, Gove
               28 July 1598.
   Nothing has come in from the sea this week, only the usual vessels from Amsterdam and Holland bringing much valuable merchandise, as the Merchant Adventurers have placed large orders.  Hamburg has stopped sending, and they are trying to forbid our going to India.  The English are beginning to send a lot of stuff to Middelburg and think of remaining there this winter as well.
   The deputies from the States General arrived here this week, to arrange peace or war.  They had an audience with the Queen to-day, but their proposals are not yet known.  Of the Earl of Cumberland there is no news.
-  Verone Martens here has failed, but still remains in his house. He owes more than £12,000, and it is a dangerous time for trade.
+  Verone Martens here has failed, but still remains in his house.  He owes more than £12,000, and it is a dangerous time for trade.
 
 640.  Hopes of a General Peace
               London
@@ -5747,12 +5732,13 @@ footnote: Albert (Albrecht Vii, the Pious), Archduke of Austria, 1559-1621, Gove
   Owing to the arrest of English ships that has resulted, the Queen of England has given strict orders that all goods of Venetian merchants still at disposal are to be returned to their owners and what is lost is to be paid for to the last penny.
 
 689.  An English Representative reaches Venice
-              Venice, May 5, 1600.
+              Venice
+              May 5, 1600.
   A few days ago an English nobleman arrived to make arrangements in his Queen’s name with those merchants on the Piazza here who suffered loss by the pillage of a ship.
 
-
 690.  Probable Marriage between Archduke Maximilian and Arabella Stuart
-              Venice, June 2, 1600.
+              Venice
+              June 2, 1600.
   As for the peace negotiations between England and Spain, discussion will probably include a marriage between the Archduke Maximilian and the Queen of England’s cousin, who is heir to this kingdom.  Although the Turk is vehemently opposed to this peace, and has offered the Queen a strong fleet and many troops to serve against Spain, it is hoped he will fail in his object.
 
 691.  Joyful Return of the English East Indian Fleet
@@ -5972,7 +5958,7 @@ background: See Fugger News-Letters (First Series), Letter 222, Execution of Ess
               April 24, 1604.
   Antonio Perez has come back to France again from England.  But they say he is not to be allowed to stay there any longer, and the yearly pension of 400 crowns granted him by the King and the guard of two Swiss are cancelled.  No doubt it was thought that he would have much influence with the King of England, but this was not the case.
   It is even said that the peace between Spain and England has fallen through owing to the conspiracy hatched by the priests.  However the Constable is supposed to be coming any day, though the King seems to have remarked that he is not impressed by the Constable’s visit nor by his compliments.
-
+  
 731.  English Raid on Algiers
               Venice
               April 30, 1604.
@@ -6037,27 +6023,53 @@ background: See Fugger News-Letters (First Series), Letter 222, Execution of Ess
             unknown
             Undated
   Articles of the peace concluded between the Kings of England and Spain and to be observed by their subjects throughout the realm.
-  1.  The loyal subjects of the King are to observe all articles of the peace just as in former times.
-  2.  No ships may be detained in Spain, or be detained owing to injury done before the conclusion of peace.
-  3.  The subjects of the King of England enjoy free right of navigation in all the dominions of the King of Spain.
-  4.  No foreigners are permitted to do the English any violence or wrong on account of violence or wrong inflicted upon them before the conclusion of peace.
+  1.  The loyal subjects of the King are to observe all articles of the peace just as in
+    former times.
+  2.  No ships may be detained in Spain, or be detained owing to injury done before 
+    the conclusion of peace.
+  3.  The subjects of the King of England enjoy free right of navigation in all the
+    dominions of the King of Spain.
+  4.  No foreigners are permitted to do the English any violence or wrong on 
+    account of violence or wrong inflicted upon them before the conclusion of
+    peace.
   5.  All embargoes on property are declared invalid.
-  6.  If the subjects of the King of England have paid dues in one place, they shall not be compelled to pay dues in any other place to which they may carrytheir goods.
-  7.  They shall not be prevented from sending their wares to any place belongingto the King of Spain.
-  8.  All imprisoned subjects of the King of England are to be liberated except thosearrested for debt.
-  9.  The subjects of the King have the right to use as large warehouses as they please, and no one shall be compelled to keep trade accounts in either Spanish or English.
-  10.  The property of subjects of the King of England deceased in Spain belongsto their heirs.
-  11.  No subject of the King may be arrested in Spain for voyaging to East or WestIndia, to Turkey or to Barbary.
-  12.  As concerns the subjects of the King of England, no inquisition or inquiry may be instituted into their religion or about books in any place where they may be dwelling or to where they may have delivered goods.
-  13.  The subjects of the King of England may not be compelled to send their goods to any particular place; on the contrary, they have the right to transfer a portion of them if unsold to another place, and to obtain return of dues therefor.
-  14.  The subjects of the King shall elect a Council and deputies to examine alltheir galleys, and no Spaniard shall concern himself therewith.
-  15.  Should, later on, war ensue between England and Spain, they are to have six months’ notice, in order to be able to remove their property.
-  16.  Should they bring out of Spain money or contraband goods or merchandise then only the contraband goods may be confiscated and none other. Articles concerning religion:
-  17.  In their ships and in their houses they shall be able to practise their religion freely.
-  18.  They shall not be compelled to attend church or to observe any ceremonies whatsoever.
-  19.  If they should commit any offence against the Spanish religion they are to be sent back to England with their property.
+  6.  If the subjects of the King of England have paid dues in one place, they shall 
+    not be compelled to pay dues in any other place to which they may carry
+    their goods.
+  7.  They shall not be prevented from sending their wares to any place belonging
+    to the King of Spain.
+  8.  All imprisoned subjects of the King of England are to be liberated except those
+    arrested for debt.
+  9.  The subjects of the King have the right to use as large warehouses as they 
+    please, and no one shall be compelled to keep trade accounts in either 
+    Spanish or English.
+  10.  The property of subjects of the King of England deceased in Spain belongs
+    to their heirs.
+  11.  No subject of the King may be arrested in Spain for voyaging to East or West
+    India, to Turkey or to Barbary.
+  12.  As concerns the subjects of the King of England, no inquisition or inquiry 
+    may be instituted into their religion or about books in any place where 
+    they may be dwelling or to where they may have delivered goods.
+  13.  The subjects of the King of England may not be compelled to send their 
+    goods to any particular place; on the contrary, they have the right to 
+    transfer a portion of them if unsold to another place, and to obtain return 
+    of dues therefor.
+  14.  The subjects of the King shall elect a Council and deputies to examine all
+    their galleys, and no Spaniard shall concern himself therewith.
+  15.  Should, later on, war ensue between England and Spain, they are to have six
+    months’ notice, in order to be able to remove their property.
+  16.  Should they bring out of Spain money or contraband goods or merchandise 
+    then only the contraband goods may be confiscated and none other.
+      Articles concerning religion:
+  17.  In their ships and in their houses they shall be able to practise their religion
+    freely.
+  18.  They shall not be compelled to attend church or to observe any ceremonies
+    whatsoever.
+  19.  If they should commit any offence against the Spanish religion they are to be
+    sent back to England with their property.
   20.  Offences of Englishmen against religion are to be reported to England.
-  21.  The subjects of the King of England shall not proceed to places in the West Indies outside the dominions of the King of Spain.
+  21.  The subjects of the King of England shall not proceed to places in the West
+    Indies outside the dominions of the King of Spain.
 
 743.  Rejoicings at Antwerp
               Antwerp
