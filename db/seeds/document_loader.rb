@@ -19,7 +19,7 @@ class DocumentLoader
           lines        = document.strip.split("\n")
           title_line   = lines.shift.strip
           citation     = title_line.match(/[0-9]{1,}\-[0-9]{1,}|[0-9]{1,}/)
-          title        = title_line.sub(/#{citation}\.\ /, "").strip.downcase.titleize
+          title        = title_line.sub(/#{citation}\.\ /, "").strip
           location     = lines.shift.strip
           date         = Date.parse(lines.shift) rescue nil
           background   = if lines.first.include?("background: ")
