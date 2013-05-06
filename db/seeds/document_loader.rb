@@ -12,12 +12,14 @@ class DocumentLoader
 
       documents = file_contents.split("\n\n")
       file_title = file_path.split("/").last.gsub(".txt", "").titleize
-      collection = Collection.create! :name => file_title, :primary => true, :description => documents.shift
+      collection = Collection.create! :name => file_title, :primary => true, :citation => documents.shift
 
       documents.each do |document|
         begin
           lines        = document.strip.split("\n")
-          title        = lines.shift.strip.sub(/[0-9]{1,}\.\ /, "").downcase.titleize
+          title_line   = lines.shift.strip
+          citation     = title_line.match(/[0-9]{1,}\-[0-9]{1,}|[0-9]{1,}/)
+          title        = title_line.sub(/#{citation}\.\ /, "").strip.downcase.titleize
           location     = lines.shift.strip
           date         = Date.parse(lines.shift) rescue nil
           background   = if lines.first.include?("background: ")

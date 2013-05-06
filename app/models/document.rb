@@ -1,5 +1,5 @@
 class Document < ActiveRecord::Base
-  attr_accessible :title, :publication_date, :content, :location, :background, :primary
+  attr_accessible :title, :publication_date, :content, :location, :background, :primary, :citation
 
   scope :primary, {:conditions => {:primary => true}}
 

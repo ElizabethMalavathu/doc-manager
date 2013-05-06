@@ -26,6 +26,7 @@ ActiveRecord::Schema.define(:version => 20130426144409) do
   create_table "collections", :force => true do |t|
     t.string   "name"
     t.text     "description"
+    t.text     "citation"
     t.boolean  "primary"
     t.datetime "created_at",  :null => false
     t.datetime "updated_at",  :null => false
@@ -37,6 +38,7 @@ ActiveRecord::Schema.define(:version => 20130426144409) do
     t.text     "content"
     t.text     "background"
     t.date     "publication_date"
+    t.string   "citation"
     t.boolean  "primary",          :default => false
     t.integer  "author_id"
     t.datetime "created_at",                          :null => false

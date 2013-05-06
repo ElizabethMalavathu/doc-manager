@@ -6,6 +6,7 @@ class CreateDocuments < ActiveRecord::Migration
       t.text   :content
       t.text   :background
       t.date   :publication_date
+      t.string :citation
       t.boolean :primary, :default => false
 
       t.references :author
