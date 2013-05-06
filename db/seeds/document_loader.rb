@@ -31,6 +31,7 @@ class DocumentLoader
                                   :publication_date => date,
                                   :content => lines.map(&:strip).join("\n"),
                                   :background => background,
+                                  :citation => citation.to_s,
                                   :primary => true
 
           @created += 1

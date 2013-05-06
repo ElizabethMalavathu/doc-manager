@@ -10,17 +10,14 @@
   <% if doc.author %>
   <p class="author"><i><%= doc.author.full_name %>. <%= doc.author.born_died %></i></p>
   <% end %>
-  <p><i>Location: <%= doc.location %></i></p>
-  <% if doc.background %>
-  <p>Background: <%= doc.background %></p>
-  <% end %>
-  <p><i>Publication Date: <%= doc.publication_date %></i></p>
+  <p style="text-align:right;"><i><%= doc.publication_date.strftime("%-m %b %Y") if doc.publication_date %></i></p>
 
   <div class="content">
   <% doc.content.split("\n").each do |paragraph| %>
     <p><%= paragraph %></p>
   <% end %>
   </div>
+  <p class="citation"><%= @collection.citation %> p <%= doc.citation %></p>
 </section>
 <% end %>
 </body>

@@ -20,7 +20,7 @@ private
     collections.map do |collection|
       [
         link_to(collection.name, collection),
-        h(collection.description),
+        h(collection.citation),
         h(collection.created_at.strftime("%B %e, %Y")),
         link_to("Get PDF", collection_path(collection, :format => :pdf, :debug => "true"),  :target => "_blank"),
         link_to('Edit', edit_collection_path(collection), :class => 'btn btn-mini'),
@@ -37,7 +37,7 @@ private
     collections = Collection.order("#{sort_column} #{sort_direction}")
     collections = collections.page(page).per_page(per_page)
     if params[:sSearch].present?
-      collections = collections.where("LOWER(name) like :search or LOWER(description) like :search", search: "%#{params[:sSearch].downcase}%")
+      collections = collections.where("LOWER(name) like :search or LOWER(citation) like :search", search: "%#{params[:sSearch].downcase}%")
     end
     collections
   end
