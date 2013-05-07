@@ -20,7 +20,7 @@
     <p><%= paragraph %></p>
   <% end %>
   </div>
-  <p class="citation"><%= @collection.citation.html_safe %>: p <%= doc.citation %>.</p>
+  <p class="citation"><%= @collection.citation.html_safe rescue nil %>: p <%= doc.citation %>.</p>
 </section>
 <% end %>
 </body>

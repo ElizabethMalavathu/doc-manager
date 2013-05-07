@@ -17,6 +17,8 @@ role :db,  "198.199.69.218", :primary => true        # This is where Rails migra
 set :user, "root"
 set :rails_env, :production
 
+after 'deploy:restart', ``
+
 # It complained about no tty, so use pty... no profile scripts :(
 # http://weblog.jamisbuck.org/2007/10/14/capistrano-2-1
 default_run_options[:pty] = true
