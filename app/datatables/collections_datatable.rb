@@ -20,7 +20,7 @@ private
     collections.map do |collection|
       [
         link_to(collection.name, collection),
-        h(collection.citation),
+        collection.citation,
         h(collection.created_at.strftime("%B %e, %Y")),
         link_to("Get PDF", collection_path(collection, :format => :pdf, :debug => "true"),  :target => "_blank"),
         link_to('Edit', edit_collection_path(collection), :class => 'btn btn-mini'),

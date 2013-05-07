@@ -22,13 +22,13 @@ gem 'will_paginate'
 
 group :production do
   gem 'pg'
+  gem 'unicorn'
 end
 
 group :test do
   gem 'factory_girl_rails'  
 end
 
-gem 'thin'
 gem 'devise'
 gem "therubyracer", :require => "v8"
 gem "less-rails" #Sprockets (what Rails 3.1 uses for its asset pipeline) supports LESS
@@ -37,3 +37,5 @@ gem "twitter-bootstrap-rails"
 gem 'taps'
 gem 'dalli'
 gem 'wicked_pdf'
+
+gem 'capistrano'
