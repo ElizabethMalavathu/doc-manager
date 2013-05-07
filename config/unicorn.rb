@@ -2,6 +2,7 @@
 
 # Set environment to development unless something else is specified
 env = ENV["RAILS_ENV"] || "development"
+puts env
 
 # See http://unicorn.bogomips.org/Unicorn/Configurator.html for complete documentation.
 worker_processes 2 # amount of unicorn workers to spin up

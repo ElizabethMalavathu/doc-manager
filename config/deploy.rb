@@ -1,5 +1,5 @@
 require "bundler/capistrano"
-
+default_run_options[:shell] = '/bin/bash --login'
 set :application, "doc-manager"
 set :repository,  "git://github.com/ElizabethWilson/doc-manager.git"
 set :branch, "rackspace"
@@ -13,11 +13,12 @@ role :db,  "108.166.117.101", :primary => true        # This is where Rails migr
 #role :db,  "your slave db-server here"
 
 set :user, "root"
+set :rails_env, :production
 
 # It complained about no tty, so use pty... no profile scripts :(
 # http://weblog.jamisbuck.org/2007/10/14/capistrano-2-1
 default_run_options[:pty] = true
-default_run_options[:shell] = '/bin/bash --login'
+
 
 # Don't show so much! (Log levels: IMPORTANT, INFO, DEBUG, TRACE, MAX_LEVEL)
 logger.level = Capistrano::Logger::DEBUG
@@ -36,7 +37,7 @@ namespace :deploy do
 
   desc "Start Unicorn"
   task :start, roles: :app, :except => { :no_release => true } do
-    run "cd #{current_path} ; bundle exec unicorn_rails -c config/unicorn.rb -D"
+    run "cd #{current_path} ; bundle exec unicorn_rails -c config/unicorn.rb -D -E #{rails_env}"
   end
 
   desc "Stop Unicorn"
