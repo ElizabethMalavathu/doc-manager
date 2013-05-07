@@ -7,9 +7,9 @@ set :scm, :git
 
 # set :deploy_to "/u/apps/#{application}"
 
-role :web, "108.166.117.101"                          # Your HTTP server, Apache/etc
-role :app, "108.166.117.101"                          # This may be the same as your `Web` server
-role :db,  "108.166.117.101", :primary => true        # This is where Rails migrations will run
+role :web, "198.199.69.218"                          # Your HTTP server, Apache/etc
+role :app, "198.199.69.218"                          # This may be the same as your `Web` server
+role :db,  "198.199.69.218", :primary => true        # This is where Rails migrations will run
 #role :db,  "your slave db-server here"
 
 set :user, "root"
@@ -32,7 +32,7 @@ set :default_environment, {
 namespace :deploy do
   desc "Zero-downtime restart of Unicorn"
   task :restart, roles: :app, :except => { :no_release => true } do
-    run "kill -s USR2 `cat /tmp/unicorn.my_app_name.pid`"
+    run "kill -s USR2 `cat /tmp/unicorn.doc-manager.pid`"
   end
 
   desc "Start Unicorn"
@@ -42,7 +42,7 @@ namespace :deploy do
 
   desc "Stop Unicorn"
   task :stop, roles: :app, :except => { :no_release => true } do
-    run "kill -s QUIT `cat /tmp/unicorn.my_app_name.pid`"
+    run "kill -s QUIT `cat /tmp/unicorn.doc-manager.pid`"
   end 
 
 
