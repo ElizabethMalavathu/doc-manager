@@ -1,5 +1,5 @@
 Docmanager::Application.configure do
-  WickedPdf.config[:exe_path] = "#{Rails.root}/bin/wkhtmltopdf-amd64"
+  # WickedPdf.config[:exe_path] = "#{Rails.root}/bin/wkhtmltopdf-amd64"
   # Settings specified here will take precedence over those in config/application.rb
 
   # Code is not reloaded between requests

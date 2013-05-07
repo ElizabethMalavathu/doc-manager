@@ -1,4 +1,5 @@
 require "bundler/capistrano"
+
 default_run_options[:shell] = '/bin/bash --login'
 set :application, "doc-manager"
 set :repository,  "git://github.com/ElizabethWilson/doc-manager.git"
