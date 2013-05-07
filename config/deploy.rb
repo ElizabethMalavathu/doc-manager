@@ -32,7 +32,7 @@ set :default_environment, {
 namespace :deploy do
   desc "Zero-downtime restart of Unicorn"
   task :restart, roles: :app, :except => { :no_release => true } do
-    run "kill -s USR2 `cat /tmp/unicorn.my_app_name.pid`"
+    run "kill -s USR2 `cat /tmp/unicorn.doc-manager.pid`"
   end
 
   desc "Start Unicorn"
@@ -42,7 +42,7 @@ namespace :deploy do
 
   desc "Stop Unicorn"
   task :stop, roles: :app, :except => { :no_release => true } do
-    run "kill -s QUIT `cat /tmp/unicorn.my_app_name.pid`"
+    run "kill -s QUIT `cat /tmp/unicorn.doc-manager.pid`"
   end 
 
 
