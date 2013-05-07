@@ -20,3 +20,9 @@ test:
   username: root
   password:
   socket: /tmp/mysql.sock
+
+production:
+  adapter: postgresql
+  database: doc-manager
+  pool: 5
+  timeout: 5000
