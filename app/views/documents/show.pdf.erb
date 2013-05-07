@@ -1,23 +1,25 @@
 <!DOCTYPE>
 <html>
 <head>
-  <%= wicked_pdf_stylesheet_link_tag 'application.css' %>
+  <%= wicked_pdf_stylesheet_link_tag 'application-print.css' %>
 </head>
-<body>
-<%- model_class = Document -%>
-<div class="page-header">
+<body id="pdf">
+<section>
   <h1><%= @document.title %></h1>
-</div>
+  <% if @document.author %>
+  <p class="author"><i><%= @document.author.full_name %>. <%= @document.author.born_died %></i></p>
+  <% end %>
+  <p class="location-date"><i>
+    <%= "#{@document.location}, " if @document.location %>
+    <%= @document.publication_date.strftime("%-m %b %Y") if @document.publication_date %>
+  </i></p>
 
-<dl class="dl-horizontal">
-  <dt><strong><%= model_class.human_attribute_name(:location) %>:</strong></dt>
-  <dd><%= @document.location %></dd>
-  <dt><strong><%= model_class.human_attribute_name(:background) %>:</strong></dt>
-  <dd><%= @document.background %></dd>
-  <dt><strong><%= model_class.human_attribute_name(:publication_date) %>:</strong></dt>
-  <dd><%= @document.publication_date %></dd>
-  <dt><strong><%= model_class.human_attribute_name(:content) %>:</strong></dt>
-  <dd><%= @document.content %></dd>
-</dl>
+  <div class="content">
+  <% @document.content.split("\n").each do |paragraph| %>
+    <p><%= paragraph %></p>
+  <% end %>
+  </div>
+  <p class="citation"><%#= @document.primary_collection.citation.html_safe %>: p <%= @document.citation %>.</p>
+</section>
 </body>
 </html>

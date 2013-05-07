@@ -1,4 +1,4 @@
-<%= stylesheet_link_tag "http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.8/themes/ui-lightness/jquery-ui.css" %>
+<%#= stylesheet_link_tag "http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.8/themes/ui-lightness/jquery-ui.css" %>
 <div class="page-header">
   <h1>Order: <%= @collection.name %></h1>
 </div>
@@ -10,6 +10,7 @@
       <th></th>
       <th>Position</th>
       <th>Title</th>
+      <th></th>
     </tr>
   </thead>
   <tbody id="sortable">
@@ -19,6 +20,7 @@
       <td><span class="ui-icon ui-icon-arrowthick-2-n-s"></span></td>
       <td class="position"><%= ref.position || index %></td>
       <td><%= link_to ref.document.title, document_path(ref.document) %></td>
+      <td><%= truncated(ref.document, :content, 50) %></td>
     </tr>
     <% end %>
   </tbody>

@@ -6,6 +6,7 @@ $('#collections').dataTable( {
 });
 
 $('#sortable').sortable({
+  containment: 'tbody',
   update: function(event, ui) {
     ui.item.effect("highlight", {}, 1000);
     $('#sortable').children('tr').each(function() {

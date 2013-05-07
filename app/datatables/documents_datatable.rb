@@ -57,7 +57,7 @@ private
   end
 
   def sort_column
-    columns = %w[id]
+    columns = %w[id publication_date]
     columns[params[:iSortCol_0].to_i]
   end
 
