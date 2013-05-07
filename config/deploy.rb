@@ -13,6 +13,7 @@ role :db,  "108.166.117.101", :primary => true        # This is where Rails migr
 #role :db,  "your slave db-server here"
 
 set :user, "root"
+default_run_options[:shell] = '/bin/bash --login' 
 
 # It complained about no tty, so use pty... no profile scripts :(
 # http://weblog.jamisbuck.org/2007/10/14/capistrano-2-1
