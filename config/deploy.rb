@@ -7,9 +7,9 @@ set :scm, :git
 
 # set :deploy_to "/u/apps/#{application}"
 
-role :web, "www.my_app_name.com"                          # Your HTTP server, Apache/etc
-role :app, "www.my_app_name.com"                          # This may be the same as your `Web` server
-role :db,  "www.my_app_name.com", :primary => true        # This is where Rails migrations will run
+role :web, "108.166.117.101"                          # Your HTTP server, Apache/etc
+role :app, "108.166.117.101"                          # This may be the same as your `Web` server
+role :db,  "108.166.117.101", :primary => true        # This is where Rails migrations will run
 #role :db,  "your slave db-server here"
 
 set :user, "root"
