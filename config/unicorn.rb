@@ -20,7 +20,7 @@ if env == "production"
   working_directory "/u/apps/doc-manager/current"
 
   # feel free to point this anywhere accessible on the filesystem
-  user 'app_user', 'app_user' # 'user', 'group'
+  user 'root', 'root' # 'user', 'group'
   shared_path = "/u/apps/doc-manager/shared"
 
   stderr_path "#{shared_path}/log/unicorn.stderr.log"
