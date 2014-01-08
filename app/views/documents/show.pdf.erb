@@ -1,0 +1,30 @@
+<!DOCTYPE>
+<html>
+<head>
+  <%= wicked_pdf_stylesheet_link_tag 'application-print.css' %>
+</head>
+<body id="pdf">
+<section>
+  <h1><%= @document.title %></h1>
+  <% if @document.author %>
+  <p class="author"><i><%= @document.author.full_name %>. <%= @document.author.born_died %></i></p>
+  <% end %>
+  <p class="location-date"><i>
+    <%= "#{@document.location}, " if @document.location %>
+    <%= @document.publication_date.strftime("%-m %b %Y") if @document.publication_date %>
+  </i></p>
+
+  <div class="content">
+  <% @document.content.split("\n").each do |paragraph| %>
+    <p><%= paragraph %></p>
+  <% end %>
+  </div>
+  <% if @document.footnote %>
+    <hr />
+    <p class="footnote"><%= @document.footnote %></p>
+    <hr />
+  <% end %>
+  <p class="citation"><%= @document.full_citation.html_safe %></p>
+</section>
+</body>
+</html>

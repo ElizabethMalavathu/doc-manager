@@ -1,0 +1,32 @@
+<!DOCTYPE>
+<html>
+<head>
+  <%= wicked_pdf_stylesheet_link_tag 'application-print.css' %>
+</head>
+<body id="pdf">
+<% @collection.documents.each do |doc| %>
+<section>
+  <h1><%= doc.title %></h1>
+  <% if doc.author %>
+  <p class="author"><i><%= doc.author.full_name %>. <%= doc.author.born_died %></i></p>
+  <% end %>
+  <p class="location-date"><i>
+    <%= "#{doc.location}, " if doc.location %>
+    <%= doc.publication_date.strftime("%-m %b %Y") if doc.publication_date %>
+  </i></p>
+
+  <div class="content">
+  <% doc.content.split("\n").each do |paragraph| %>
+    <p><%= paragraph %></p>
+  <% end %>
+  </div>
+  <% if doc.footnote %>
+    <hr />
+    <p class="footnote"><%= doc.footnote %></p>
+    <hr />
+  <% end %>
+  <!-- <p class="citation"><%= @collection.citation.html_safe rescue nil %>: p <%= doc.citation %>.</p> -->
+</section>
+<% end %>
+</body>
+</html>
