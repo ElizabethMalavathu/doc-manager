@@ -34,7 +34,7 @@ namespace :deploy do
   desc 'start unicorn'
   task :start do
     on roles(:app) do
-      execute "cd #{release_path}/ ; bundle exec unicorn_rails -c config/unicorn.rb -D -E production"
+      execute "cd #{release_path}/ ; RAILS_ENV=production bundle exec unicorn_rails -c config/unicorn.rb -D -E production"
     end
   end
 
