@@ -6,6 +6,10 @@ class CollectionsController < ApplicationController
       format.json {render json: Collection.all }
     end
   end
+
+  def new
+    @collection = Collection.new
+  end
   
   def show
     @collection = Collection.find(params[:id])
@@ -26,7 +30,7 @@ class CollectionsController < ApplicationController
   end
 
   def create
-    @collection = Collection.new(params[:collection])
+    @collection = Collection.new(resource_params)
 
     respond_to do |format|
       if @collection.save
@@ -43,7 +47,7 @@ class CollectionsController < ApplicationController
     @collection = Collection.find(params[:id])
 
     respond_to do |format|
-      if @collection.update_attributes(params[:collection])
+      if @collection.update_attributes(resource_params)
         format.html { redirect_to @collection, notice: 'Collection was successfully updated.' }
         format.json { head :no_content }
       else
@@ -79,5 +83,11 @@ class CollectionsController < ApplicationController
       Reference.find(id).update_attributes(:position => position)
     end
     redirect_to order_collection_path(:id => params[:id])
+  end
+
+  private
+
+  def resource_params
+    params.require(:collection).permit(:name, :description, :citation, :primary)
   end
 end

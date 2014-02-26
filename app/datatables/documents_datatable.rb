@@ -24,7 +24,7 @@ private
         check_box_tag("document_ids[]", doc.id),
         link_to(doc.title, doc),
         truncated(doc, :location, 100),
-        truncated(doc, :content, 100),
+        doc.tags.map(&:name).join(", "),
         doc.publication_date ? doc.publication_date.strftime("%m/%d/%Y") : "",
         link_to('PDF', document_path(doc, :format => :pdf, :debug => "true"), :class => 'btn btn-mini', :target => "_blank"),
         link_to('Edit', edit_document_path(doc), :class => 'btn btn-mini'),

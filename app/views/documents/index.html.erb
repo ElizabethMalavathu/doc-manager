@@ -3,7 +3,7 @@
 </div>
 
 
-<%#= form_tag add_collections_documents_path :method => :post %>
+<%= form_tag add_collections_documents_path :method => :post %>
 <fieldset>
 <table cellpadding="0" cellspacing="0" border="0" id="documents" class="table table-striped" data-source="<%= documents_url(format: "json") %>">
   <thead>
@@ -11,7 +11,7 @@
       <th></th>
       <th width="20%">Title</th>
       <th>Location</th>
-      <th width="40%">Content</th>
+      <th width="40%">Tags</th>
       <th>Publication date</th>
       <th></th>
       <th></th>
@@ -27,10 +27,10 @@
 
 <br />
 <label>Collection: </label>
-<%= select_tag :collection_id %>
+<%= select_tag :collection_id, options_for_select(Collection.all.map{|c| [c.name, c.id] }), style: "width:200px" %>
 <%= submit_tag "Add", :class => "btn" %>
 </fieldset>
-<!-- </form> -->
+</form>
 <br />
 
 <%= link_to 'New Document', new_document_path %>

@@ -10,16 +10,23 @@ class DocumentLoader
   end
 
   def self.run_new!
+    error_log = File.open("#{Rails.root}/log/seeds.log", "w")
     word_docs = `find ~/projects/dr_mitchell -name "*.doc"`.split("\n")
 
-    word_docs.each do |word_file_path|
+    word_docs.each_with_index do |word_file_path, i|
       file_name = word_file_path.split("/").last.gsub(".doc", "").titleize
       file_text = `antiword -f -w 0 #{sanitize_file_name(word_file_path)}`
-      puts "Saving: #{word_file_path} as #{file_name}"
+      if $?.exitstatus != 0
+        error_log.puts sanitize_file_name(word_file_path)
+        next
+      end
+      puts "Saving: #{i}/#{word_docs.count} #{word_file_path} as #{file_name}"
       
-      tags = word_file_path.split("/")
+      tags = word_file_path.match(/dr_mitchell\/(.*)/)[1].split("/") rescue [""]
       tags = tags.map do |t|
-        Tag.find_by_name(t) || Tag.create!(name: t)
+        if !t.blank?
+          Tag.find_by_name(t) || Tag.create!(name: t)
+        end
       end
 
       doc = Document.create!(
@@ -28,6 +35,7 @@ class DocumentLoader
       )
       doc.tags = tags
     end
+    error_log.close
   end
 
   def self.run!
