@@ -17,6 +17,8 @@ test:
 
 production:
   adapter: postgresql
+  username: root
+  password:
   database: doc_manager_production
   pool: 5
   timeout: 5000
