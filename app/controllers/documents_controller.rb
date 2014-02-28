@@ -37,7 +37,7 @@ class DocumentsController < ApplicationController
   # POST /documents
   # POST /documents.json
   def create
-    @document = Document.new(params[:document])
+    @document = Document.new(resource_params)
 
     respond_to do |format|
       if @document.save
@@ -80,5 +80,9 @@ class DocumentsController < ApplicationController
 
   def add_collections
     puts params.inspect
+  end
+
+  def resource_params
+    params.require(:document).permit!
   end
 end

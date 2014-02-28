@@ -38,6 +38,13 @@ namespace :deploy do
     end
   end
 
+  desc 'stop unicorn'
+  task :stop do
+    on roles(:app) do
+      execute "kill -s QUIT `cat /tmp/unicorn.doc-manager.pid`"
+    end
+  end
+
   after :finishing, 'deploy:cleanup'
 
 end
