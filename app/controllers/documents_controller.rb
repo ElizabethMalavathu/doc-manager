@@ -56,7 +56,7 @@ class DocumentsController < ApplicationController
     @document = Document.find(params[:id])
 
     respond_to do |format|
-      if @document.update_attributes(params[:document])
+      if @document.update_attributes(resource_params)
         format.html { redirect_to @document, notice: 'Primary document was successfully updated.' }
         format.json { head :no_content }
       else
